@@ -1,10 +1,11 @@
 import './App.css';
 import React from "react"
 import { BrowserRouter } from "react-router-dom";
-// import Navbar from '../component/NavBar';
+import Navbar from './components/Navbar';
 // import Content from '../component/Content';
 // import Footer from '../component/Footer';
 // import ScrollToTop from '../component/ScrollToTop'
+import './App.css';
 
 
 
@@ -12,8 +13,9 @@ import { BrowserRouter } from "react-router-dom";
 const App = (props) => (
     <div className="App">
         <BrowserRouter>
-            {/* <ScrollToTop/>
             <Navbar/>
+            {/* <ScrollToTop/>
+            
             <Content />
             <Footer/> */}
           <h1>Hallo</h1>  
