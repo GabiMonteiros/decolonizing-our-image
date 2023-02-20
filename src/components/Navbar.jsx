@@ -20,10 +20,12 @@ function Navbar() {
             <div className="navbar-container">
                 <Link
                     to="/"
-                    className="navbar-logo" 
-                     onClick={closeMobileMenu}
+                    className="navbar-logo nav-links"
+                    onClick={closeMobileMenu}
+                    
+                    
                 >
-                    Decolonization of Image
+                    <h1>Decolonization of Image</h1>
                      {/* <i className='fab fa-typo3'/>  aaaa logo*/}
                 </Link> 
 
@@ -42,6 +44,7 @@ function Navbar() {
                             to="/racism-is-aesthetic"
                             className="nav-links"
                             onClick={closeMobileMenu}
+                            data-page='Racism is Aesthetic'
                         >
                             Racism is Aesthetic
                         </Link>
@@ -53,6 +56,7 @@ function Navbar() {
                         to="/violence-with-non-white-bodies"
                         className="nav-links"
                         onClick={closeMobileMenu}
+                        data-page='Violence with non-white Bodies'
                     >
                         Violence with non-white Bodies
                     </Link>
@@ -64,6 +68,7 @@ function Navbar() {
                         to="/sexism"
                         className="nav-links"
                         onClick={closeMobileMenu}
+                        data-page='Sexism'
                     >
                         Sexism
                     </Link>
@@ -74,8 +79,9 @@ function Navbar() {
                           
                     <Link
                         to="/google-image-search"
-                        lassName="nav-links"
+                        className="nav-links"
                         onClick={closeMobileMenu}
+                        data-page='Who Am I?'
                     >
                         Google Image Search
                     </Link>
@@ -86,8 +92,9 @@ function Navbar() {
                           
                           <Link
                               to="/who-am-I"
-                              lassName="nav-links"
+                              className="nav-links"
                               onClick={closeMobileMenu}
+                              data-page='Who Am I?'
                           >
                               Who Am I?
                           </Link>
