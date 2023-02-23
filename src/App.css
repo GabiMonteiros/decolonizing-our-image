@@ -1,0 +1,63 @@
+
+.ria{
+    background: linear-gradient(to top,  #0de9e2, #2cec3c);
+    /* #30eedb */
+}
+
+.sex{
+    background: linear-gradient(to top, #ff5a18, #8E2DE2) ;
+}
+
+
+.wai{
+    background: linear-gradient(to top,#f260a4 , #af7a06) ;
+}
+
+.vwnwb{
+    background: linear-gradient(to top, #8E2DE2, #0de9e2);
+}
+.gis{
+    background: linear-gradient(to top, #af7a06, #ff5a18) ;
+}
+
+.img_container{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('/public/images/01JeanBaptisteDebret1823.jpg'  ); */
+    
+}
+
+.img_box{
+    
+    height: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.img_box img{
+    position: absolute;
+    max-width: 100%;
+    
+    /* left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; */
+    
+
+}
+
+ .img_box img:nth-child(2){
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.img_box:hover img:nth-child(2){
+    opacity: 1;
+   
+} 

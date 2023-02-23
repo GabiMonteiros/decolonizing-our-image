@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
 }
 
@@ -14,8 +14,8 @@
     background-color: #fff;
     height: 90px;
     display: flex;
-    
     font-size: 1.2rem;
+   
 }
 
 .navbar-container{
@@ -50,7 +50,7 @@ ul{
  
     color: rgb(67, 152, 47);
     justify-self: start;
-    margin-left: 20px;
+    margin: 0 20px 0 10px ;
     cursor: pointer;
     text-decoration: none;
     font-size: 1rem;
@@ -58,6 +58,32 @@ ul{
     align-items: center;
     font-weight: 600;
 }
+
+.navbar-logo:hover{
+    color: rgb(92, 231, 65);
+}
+
+.nav-menu {
+  
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+    margin-right: 2rem;
+}    
+
+
+.fa-bars {
+   color: rgb(67, 152, 47);
+}
+  
+.nav-links-mobile {
+    display: none;
+}
+  
+.menu-icon {
+    display: none;
+}
+
 
 .title{
     min-height: 100vh;
@@ -68,4 +94,7 @@ ul{
 
 .title h2{
     font-size: 4.4rem;
+    color: antiquewhite;
 }
+
+

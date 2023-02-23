@@ -5,7 +5,7 @@ function Home() {
     
     <>
       <main>
-        <section className='title'>
+        <section className='title home'>
           <h2>Home</h2>
         </section>
       </main>  

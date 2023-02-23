@@ -1,7 +1,10 @@
 //rfce
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
+//import { Link as LinkScroll} from 'react-scroll'
+
 import './Navbar.css'
+
 
 function Navbar() {
      const [click, setClick] = useState(false);
