@@ -2,18 +2,18 @@ import React, {useEffect} from 'react';
 import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
 
-function Sexism() {
-  useEffect(() => {
-    // eslint-disable-next-line 
-    var image_animate = new hoverEffect({ 
-      parent: document.querySelector('.img_box'),
-      intensity: 0.7,
-      image1: '/images/01JeanBaptisteDebret1823.jpg' ,
-      image2:'/images/01Vogue.png',
-      displacementImage: '/images/heightMap.png'
-        
-    })
-  })
+function NonWhiteServing() {
+    useEffect(() => {
+        // eslint-disable-next-line 
+        var image_animate = new hoverEffect({ 
+          parent: document.querySelector('.img_box'),
+          intensity: 0.7,
+          image1: '/images/01JeanBaptisteDebret1823.jpg' ,
+          image2:'/images/01Vogue.png',
+          displacementImage: '/images/heightMap.png'
+            
+        })
+      })
   return (
     <m.div 
         initial={{y: "100%" }}
@@ -29,7 +29,7 @@ function Sexism() {
                 animate={{ y: "100%" }}
                 transition={{ delay:0.7, duration: 0.5}}
             >
-                Sexism
+                The non-white always serving
             </m.h2>
         </section>
         </main>
@@ -43,4 +43,5 @@ function Sexism() {
   )
 }
 
-export default Sexism
+export default NonWhiteServing
+

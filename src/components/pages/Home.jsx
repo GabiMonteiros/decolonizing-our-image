@@ -6,7 +6,8 @@ function Home() {
     <>
       <main>
         <section className='title home'>
-          <h2>Home</h2>
+          <h2>Decolonize the Image</h2>
+          <h4>Racism is Aesthetic</h4>
         </section>
       </main>  
     </>

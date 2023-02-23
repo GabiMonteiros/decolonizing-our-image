@@ -3,10 +3,12 @@ import {  Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import RacismisAesthetic from "./pages/RacismisAesthetic";
 import Sexism from "./pages/Sexism";
+import NonWhiteServing from './pages/NonWhiteServing';
 import GoogleImageSearch from "./pages/GoogleImageSearch";
 import WhoAmI from "./pages/WhoAmI";
 import NotFound from "./pages/NotFound";
 import ViolenceNonWhiteBodies from './pages/ViolenceNonWhiteBodies';
+
 
 const Content = (props) =>(
     <main className="Content">
@@ -16,9 +18,10 @@ const Content = (props) =>(
             
             <Route extact path='/violence-with-non-white-bodies' element={ <ViolenceNonWhiteBodies />}></Route>
             <Route extact path='/sexism' element={ <Sexism />}></Route>
+            <Route extact path='/non-white-serving' element={ <NonWhiteServing />}></Route>
             <Route extact path='/google-image-search' element={ <GoogleImageSearch />}></Route>
             <Route extact path='/who-am-I' element={ <WhoAmI />}></Route>
-            <Route extact path='/who-am-I' element={ <WhoAmI />}></Route>
+            
             <Route path="*" element={<NotFound />}></Route>
         </Routes>
     </main>

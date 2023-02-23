@@ -21,6 +21,7 @@ function Navbar() {
     <>
         <nav className="navbar">
             <div className="navbar-container">
+                {/* textx-2x1 font-medium */}
                 <Link
                     to="/"
                     className="navbar-logo nav-links"
@@ -74,6 +75,19 @@ function Navbar() {
                         data-page='Sexism'
                     >
                         Sexism
+                    </Link>
+                       
+                  </li>   
+                  
+                  <li className="nav-item">
+                          
+                    <Link
+                        to="/non-white-serving"
+                        className="nav-links"
+                        onClick={closeMobileMenu}
+                        data-page='Sexism'
+                    >
+                        Always Serving
                     </Link>
                        
                   </li>   
