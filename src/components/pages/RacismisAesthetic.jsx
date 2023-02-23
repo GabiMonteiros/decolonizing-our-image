@@ -1,8 +1,26 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import hoverEffect from 'hover-effect';
 
 
 function RacismisAesthetic() {
+
+  
+    useEffect(() => {
+      // eslint-disable-next-line 
+      var image_animate = new hoverEffect({ 
+        parent: document.querySelector('.img_box'),
+        intensity: 0.1,
+        image1: '/images/01JeanBaptisteDebret1823.jpg' ,
+        image2:'/images/01Vogue.png',
+        displacementImage: '/images/heightMap.png'
+        
+      })
+    })
+
   return (
+
+    
+
     <>
       <main>
         <section className='title ria'>
@@ -11,14 +29,8 @@ function RacismisAesthetic() {
       </main>
 
       <div className="img_container"> 
-       {/* container */}
-        <div className="img_box">
-          {/* he_box */}
-          <img src="/images/01JeanBaptisteDebret1823.jpg" alt="" />
-          <img src="/images/01Vogue.png" alt="" />
-
-          
-        </div>
+      
+        <div className="img_box"></div>
       </div>
 
 
