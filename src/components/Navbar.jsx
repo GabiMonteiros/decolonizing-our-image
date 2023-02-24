@@ -2,26 +2,22 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 //import { Link as LinkScroll} from 'react-scroll'
-
 import './Navbar.css'
 
-
+ 
 function Navbar() {
-     const [click, setClick] = useState(false);
+    const [click, setClick] = useState(false);
     
     
     const handleClick = () => setClick(!click);
-     const closeMobileMenu = () => setClick(false)
+    const closeMobileMenu = () => setClick(false)
     
 
 
-    
-
-  return (
+      return (
     <>
-        <nav className="navbar">
+        <nav className= 'navbar' >
             <div className="navbar-container">
-                {/* textx-2x1 font-medium */}
                 <Link
                     to="/"
                     className="navbar-logo nav-links"
@@ -74,7 +70,7 @@ function Navbar() {
                         onClick={closeMobileMenu}
                         data-page='Sexism'
                     >
-                        Sexism
+                        Sexism/Dehumanization
                     </Link>
                        
                   </li>   

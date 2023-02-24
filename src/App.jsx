@@ -5,10 +5,9 @@ import { AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Content from './components/Content';
 // import Footer from '../component/Footer';
-// import ScrollToTop from '../component/ScrollToTop'
 
 
-
+ 
 
 
 const App = (props, router) => (
@@ -19,9 +18,9 @@ const App = (props, router) => (
                 <Content key={router.pathname} {...props}/>
             </AnimatePresence>
             
-            {/* <ScrollToTop/>
+            {/* 
             
-            <Content />
+            
             <Footer/> */}
            
         </BrowserRouter>

@@ -20,32 +20,35 @@ function RacismisAesthetic() {
 
   return (
 
+    <>
+
     
-    <m.div 
-      initial={{y: "100%" }}
-      animate={{ y: "0%" }}
-      transition={{duration:0.75, ease: 'easeOut'}} 
-      exit={{opacity: 1 }}
-    >
+      <m.div 
+        initial={{y: "100%" }}
+        animate={{ y: "0%" }}
+        transition={{duration:0.75, ease: 'easeOut'}} 
+        exit={{opacity: 1 }}
+      >
 
-      <main>
-        <section className='title ria'>
-          <m.h2
-            initial={{y: 0 }}
-            animate={{ y: "100%" }}
-            transition={{ delay:0.7, duration: 0.5}}
-          >
-            Racism is Aesthetic
-          </m.h2>
-        </section>
-      </main>
+        
+      <section className='title ria'>
+        <m.h2
+          nitial={{y: 0 }}
+          animate={{ y: "100%" }}
+          transition={{ delay:0.7, duration: 0.5}}
+        >
+          Racism is Aesthetic
+        </m.h2>
+      </section>
+        
 
-      <div className="img_container"> 
-        <div className="img_box"></div>
-      </div>
+        <div className="img_container"> 
+          <div className="img_box"></div>
+        </div>
+      </m.div>
 
-
-    </m.div>
+    </>
+    
     
 
   )
