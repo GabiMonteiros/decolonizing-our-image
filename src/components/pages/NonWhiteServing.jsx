@@ -8,8 +8,8 @@ function NonWhiteServing() {
         var image_animate = new hoverEffect({ 
           parent: document.querySelector('.img_box'),
           intensity: 0.7,
-          image1: '/images/01JeanBaptisteDebret1823.jpg' ,
-          image2:'/images/01Vogue.png',
+          image1: '/images/SenhoraEscravos1860.png' ,
+          image2:'/images/03doshow.png',
           displacementImage: '/images/heightMap.png'
             
         })

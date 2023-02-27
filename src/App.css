@@ -59,6 +59,7 @@
 
 .img_container{
     background-color: #f260a4;
+   
     
 }
 
@@ -66,14 +67,22 @@
 
 .img_box{
     
-    height: 1000px;
-    width: 80%;
-    object-fit: scale-down;
-
-   
+    height: 700px;
+    width: 1210px;
+    margin: auto;
+    margin-top: 20px;
+    
+    
+    
    
     
 }
+
+/* .img_box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
 
 
 /*.img_box img{

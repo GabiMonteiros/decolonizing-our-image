@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
 
+
 function RacismisAesthetic() {
 
 
@@ -11,12 +12,14 @@ function RacismisAesthetic() {
     var image_animate = new hoverEffect({ 
       parent: document.querySelector('.img_box'),
       intensity: 0.7,
-      image1: '/images/01JeanBaptisteDebret1823.jpg' ,
-      image2:'/images/01Vogue.png',
+      image1: '/images/01JeanBaptisteDebret1823.png' ,
+      image2:'/images/01vogue2.png',
       displacementImage: '/images/heightMap.png'
         
     })
   })
+
+  
 
   return (
 
@@ -41,10 +44,14 @@ function RacismisAesthetic() {
         </m.h2>
       </section>
         
-
-        <div className="img_container"> 
-          <div className="img_box"></div>
-        </div>
+      <div className="image-container">
+        <div className="img_box"></div>
+      </div>
+          
+{/* 
+          <div className="image-container">
+            <img src="/images/policia-criancasnegras .png" alt="" />
+          </div> */}
       </m.div>
 
     </>
