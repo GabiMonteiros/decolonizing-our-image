@@ -1,6 +1,6 @@
 import React from 'react'
 import {  Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./Home";
 import RacismisAesthetic from "./pages/RacismisAesthetic";
 import Sexism from "./pages/Sexism";
 import NonWhiteServing from './pages/NonWhiteServing';
@@ -12,7 +12,7 @@ import ViolenceNonWhiteBodies from './pages/ViolenceNonWhiteBodies';
 
 const Content = (props) =>(
     <main className="Content">
-        <Routes>
+        <Routes> 
             <Route extact path='/' element={ <Home />}></Route>
             <Route extact path='/racism-is-aesthetic' element={ <RacismisAesthetic />}></Route>
             

@@ -1,101 +1,57 @@
-
-
-
 .navbar{
-    background: transparent;
-
-    min-height: 10vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px 0 70px;
+    font-size: 25px;
+    font-family: 'Syncopate', sans-serif;
+    color: rgb(227, 191, 147);
+    font-weight: 700;
+    text-transform: uppercase;
+    z-index: 999;
     position: sticky;
     top: 0px;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+
     
-    display: flex;
-    font-size: medium;
-    font-family: 'Lato';
+
+}
+
+.header-container{
+    position: relative;
+    padding: 0 5vw;
+}    
+.header-menu{
     z-index: 999;
-   
+    position: sticky;
+    top: 100px;
+    left: 0;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    color: rgb(227, 191, 147);
+    text-transform: uppercase;
+        
+}
+li{
+    margin: 10px 0;
+
 }
 
 
 
-.navbar-container {
-    margin: 50px 0 0 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    width: 100%;
-    
-}
-  
-.navbar-container{
-    /* margin: auto; */
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 1.2rem;
-    background: transparent;
 
 
-}
 
-.navbar-container h1,
 ul{
-    
-    flex: 1;
-}
-
-.navbar-container ul{
     list-style: none;
-    display: flex;
-    justify-content: space-between;
 }
 
 .nav-links{
     text-decoration: none;
-    color: black;
+    color: rgb(227, 191, 147);
+    
+
 }
-
-.navbar-logo {
- 
-    color: rgb(67, 152, 47);
-    justify-self: start;
-    margin: 0 20px 0 10px ;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    font-weight: 600;
-}
-
-.navbar-logo:hover{
-    color: rgb(92, 231, 65);
-}
-
-.nav-menu {
-  
-    list-style: none;
-    text-align: center;
-    justify-content: end;
-    margin-right: 2rem;
-}    
-
-
-.fa-bars {
-   color: rgb(67, 152, 47);
-}
-  
-.nav-links-mobile {
-    display: none;
-}
-  
-.menu-icon {
-    display: none;
-}
-
-
-
-
-/* responsive  */
 

@@ -10,7 +10,7 @@ function NonWhiteServing() {
           intensity: 0.7,
           image1: '/images/SenhoraEscravos1860.png' ,
           image2:'/images/03doshow.png',
-          displacementImage: '/images/heightMap.png'
+          displacementImage: '/images/fluid.jpg'
             
         })
       })

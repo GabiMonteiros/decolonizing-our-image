@@ -1,121 +1,111 @@
-//rfce
-import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
-//import { Link as LinkScroll} from 'react-scroll'
+import React from 'react'
+import {Link} from 'react-router-dom'
 import './Navbar.css'
 
- 
+
 function Navbar() {
-    const [click, setClick] = useState(false);
-    
-    
-    const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false)
-    
-
-
-      return (
+  return (
     <>
-        <nav className= 'navbar' >
-            <div className="navbar-container">
+        <div className="navbar">
+            <div className="nav-item">
                 <Link
                     to="/"
-                    className="navbar-logo nav-links"
-                    onClick={closeMobileMenu}
-                    
-                    
+                    className="nav-links"
+                                    
                 >
-                    <h1>Decolonization of Image</h1>
-                     {/* <i className='fab fa-typo3'/>  aaaa logo*/}
-                </Link> 
+                    menu
+                </Link>
+            </div>
 
-                <div className="menu-icon"
-                 onClick={handleClick}
-                 >
-                    {/* burger menu */}
-                    <i className={click ? "fas fa-times" : "fas fa-bars"} />
-                </div>
+            <div className="nav-item">
+                <Link
+                    to="/"
+                    className="nav-links"
+                                
+                >
+                    Decolonize the Image
+                </Link>    
+            </div>
 
-                <ul className={click ? "nav-menu active" : "nav-menu"}>
-                    {/* qnd clica desaparece o menu */} 
+            <div className="nav-item">
+                            
+                <Link
+                    to="/who-am-I"
+                    className="nav-links"
+                                    
+                >
+                    Who Am I?
+                </Link>    
+
+            </div>
+
+            
+        </div> 
+
+        <section className='header-container'>
+            <ul className= 'header-menu'>
                     <li className="nav-item">
-                          
+                            
                         <Link
                             to="/racism-is-aesthetic"
                             className="nav-links"
-                            onClick={closeMobileMenu}
-                            data-page='Racism is Aesthetic'
+                                
                         >
                             Racism is Aesthetic
                         </Link>
-                         
-                    </li>      
+                            
+                        </li>      
+                        <li className="nav-item">
+                            
+                        <Link
+                            to="/violence-with-non-white-bodies"
+                            className="nav-links"
+                            
+                        >
+                            Violence with non-white Bodies
+                        </Link>
+                        
+                    </li>  
                     <li className="nav-item">
-                          
-                    <Link
-                        to="/violence-with-non-white-bodies"
-                        className="nav-links"
-                        onClick={closeMobileMenu}
-                        data-page='Violence with non-white Bodies'
-                    >
-                        Violence with non-white Bodies
-                    </Link>
-                       
-                  </li>  
-                  <li className="nav-item">
-                          
-                    <Link
-                        to="/sexism"
-                        className="nav-links"
-                        onClick={closeMobileMenu}
-                        data-page='Sexism'
-                    >
-                        Sexism/Dehumanization
-                    </Link>
-                       
-                  </li>   
-                  
-                  <li className="nav-item">
-                          
-                    <Link
-                        to="/non-white-serving"
-                        className="nav-links"
-                        onClick={closeMobileMenu}
-                        data-page='Sexism'
-                    >
-                        Always Serving
-                    </Link>
-                       
-                  </li>   
+                            
+                        <Link
+                            to="/sexism"
+                            className="nav-links"
+                            
+                        >
+                            Sexism/Dehumanization
+                        </Link>
+                        
+                    </li>   
+                    
+                    <li className="nav-item">
+                                
+                        <Link
+                            to="/non-white-serving"
+                            className="nav-links"
+                                
+                        >
+                            Always Serving
+                        </Link>
+                            
+                    </li>   
 
-                  <li className="nav-item">
-                          
-                    <Link
-                        to="/google-image-search"
-                        className="nav-links"
-                        onClick={closeMobileMenu}
-                        data-page='Who Am I?'
-                    >
-                        Google Image Search
-                    </Link>
-                       
-                  </li> 
+                    <li className="nav-item">
+                            
+                        <Link
+                            to="/google-image-search"
+                            className="nav-links"
+                            
+                        >
+                            Google Image Search
+                        </Link>
+                        
+                    </li> 
 
-                  <li className="nav-item">
-                          
-                          <Link
-                              to="/who-am-I"
-                              className="nav-links"
-                              onClick={closeMobileMenu}
-                              data-page='Who Am I?'
-                          >
-                              Who Am I?
-                          </Link>
-                             
-                        </li> 
-                </ul>   
-            </div> 
-        </nav>
+                    
+             </ul>    
+
+        </section>
     </>
   );
 }

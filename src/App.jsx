@@ -14,6 +14,7 @@ const App = (props, router) => (
     <div className="App">
         <BrowserRouter>
             <Navbar/>
+        
             <AnimatePresence >
                 <Content key={router.pathname} {...props}/>
             </AnimatePresence>
