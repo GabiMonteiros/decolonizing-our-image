@@ -40,7 +40,7 @@ function RacismisAesthetic() {
           animate={{ y: "100%" }}
           transition={{ delay:0.7, duration: 0.5}}
         >
-          {/* Racism is Aesthetic */}
+          Racism is Aesthetic
         </m.h2>
       </section>
         
