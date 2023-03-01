@@ -8,6 +8,7 @@ import GoogleImageSearch from "./pages/GoogleImageSearch";
 import WhoAmI from "./pages/WhoAmI";
 import NotFound from "./pages/NotFound";
 import ViolenceNonWhiteBodies from './pages/ViolenceNonWhiteBodies';
+import WhiteCentrism from './pages/WhiteCentrism';
 
 
 const Content = (props) =>(
@@ -15,7 +16,8 @@ const Content = (props) =>(
         <Routes> 
             <Route extact path='/' element={ <Home />}></Route>
             <Route extact path='/racism-is-aesthetic' element={ <RacismisAesthetic />}></Route>
-            
+            <Route extact path='/white-centrism' element={ <WhiteCentrism />}></Route>
+
             <Route extact path='/violence-with-non-white-bodies' element={ <ViolenceNonWhiteBodies />}></Route>
             <Route extact path='/sexism' element={ <Sexism />}></Route>
             <Route extact path='/non-white-serving' element={ <NonWhiteServing />}></Route>

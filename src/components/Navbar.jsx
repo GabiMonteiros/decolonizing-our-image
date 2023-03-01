@@ -47,11 +47,11 @@ function Navbar() {
                     <li className="nav-item">
                             
                         <Link
-                            to="/racism-is-aesthetic"
+                            to="/white-centrism"
                             className="nav-links"
                                 
                         >
-                            Racism is Aesthetic
+                            Whitecentrism
                         </Link>
                             
                         </li>      
