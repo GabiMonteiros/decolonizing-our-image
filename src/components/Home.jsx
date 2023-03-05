@@ -33,6 +33,7 @@ function Home() {
           value art, we value insight, and we value opinion.
         </p>
       </div>
+
     </>
   )
 }

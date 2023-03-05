@@ -1,7 +1,8 @@
 import React, {useEffect}  from 'react';
 import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
-// import GalleryWhiteCen from '../GalleryWhiteCen';
+import GalleryWhiteCen from '../GalleryWhiteCen'
+
 
 function WhiteCentrism() {
 
@@ -40,15 +41,15 @@ function WhiteCentrism() {
 
         </section>
 
-        <section className='section-wrapper gallery-wrap'>
+        {/* <section className='section-wrapper gallery-wrap'> </section> */}
             <div className="image-container">
                 <div className="img_box"></div>
             </div>
-        </section>
-        
+      
+
+        <GalleryWhiteCen/>
 
       </m.div>
-
 
     </>
   )
