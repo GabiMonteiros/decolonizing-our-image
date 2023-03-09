@@ -1,5 +1,5 @@
 import React from 'react'
-import './SectionText.css'
+import './index.css'
 
 function SectionText({title}) {
   return (

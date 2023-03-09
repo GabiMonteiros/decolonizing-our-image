@@ -1,14 +1,14 @@
 import React from 'react'
 import {  Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import RacismisAesthetic from "./pages/RacismisAesthetic";
-import Sexism from "./pages/Sexism";
-import NonWhiteServing from './pages/NonWhiteServing';
-import GoogleImageSearch from "./pages/GoogleImageSearch";
-import WhoAmI from "./pages/WhoAmI";
-import NotFound from "./pages/NotFound";
-import ViolenceNonWhiteBodies from './pages/ViolenceNonWhiteBodies';
-import WhiteCentrism from './pages/WhiteCentrism';
+import Home from "../pages/Home";
+import RacismisAesthetic from "../pages/RacismisAesthetic";
+import Sexism from "../pages/Sexism";
+import NonWhiteServing from '../pages/NonWhiteServing';
+import GoogleImageSearch from "../pages/GoogleImageSearch";
+import WhoAmI from "../pages/WhoAmI";
+import NotFound from "../pages/NotFound";
+import ViolenceNonWhiteBodies from '../pages/ViolenceNonWhiteBodies';
+import WhiteCentrism from '../pages/WhiteCentrism';
 
 
 const Content = (props) =>(

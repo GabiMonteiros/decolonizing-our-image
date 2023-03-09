@@ -3,7 +3,7 @@ import React from "react"
 import { BrowserRouter } from "react-router-dom";
 import { AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
-import Content from './components/Content';
+import Content from './setup/Content';
 // import Footer from '../component/Footer';
 
 

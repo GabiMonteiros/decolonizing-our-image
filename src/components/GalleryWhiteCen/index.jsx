@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './GalleryWhiteCen.css';
+import './index.css';
 
 //array of images 
 const images=[

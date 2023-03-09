@@ -1,7 +1,7 @@
 import React, {useEffect}  from 'react';
 import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
-import GalleryWhiteCen from '../GalleryWhiteCen'
+import GalleryWhiteCen from '../components/GalleryWhiteCen'
 
 
 function WhiteCentrism() {

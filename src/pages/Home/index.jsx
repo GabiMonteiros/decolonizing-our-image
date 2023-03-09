@@ -1,6 +1,6 @@
 import React from 'react'
-import './Home.css'
-import SectionText from './SectionText'
+import './index.css'
+import SectionText from '../../components/SectionText'
 
 function Home() {
   return (
