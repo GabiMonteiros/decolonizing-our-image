@@ -1,0 +1,56 @@
+
+
+.header-container{ 
+    background-color: transparent;
+    position: relative;
+    padding: 0 5vw;
+}   
+ 
+.header-menu{
+    z-index: 999;
+    position: sticky;
+    top: 100px;
+    left: 0;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(227, 191, 147);
+    text-transform: uppercase;
+        
+}
+li{
+    margin: 10px 0;
+
+}
+
+
+
+
+
+
+ul{
+    list-style: none;
+}
+
+
+
+.text-container{
+    
+    height: 900px;
+    background: linear-gradient(to top,  #0de9e2, #2cec3c);
+    padding: 0;
+}
+
+
+#header-text{
+    font-size: 13vw;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: rgb(47, 45, 41);
+    margin-top: -220px;
+    padding-top: 280px;
+       
+
+}

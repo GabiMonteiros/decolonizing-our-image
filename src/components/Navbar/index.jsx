@@ -14,7 +14,7 @@ function Navbar() {
                                     
                 >
                     menu
-                </Link>
+                </Link> 
             </div>
 
             <div className="nav-item">
@@ -42,70 +42,7 @@ function Navbar() {
             
         </div> 
 
-        <section className='header-container'>
-            <ul className= 'header-menu'>
-                    <li className="nav-item">
-                            
-                        <Link
-                            to="/white-centrism"
-                            className="nav-links"
-                                
-                        >
-                            Whitecentrism
-                        </Link>
-                            
-                        </li>      
-                        <li className="nav-item">
-                            
-                        <Link
-                            to="/violence-with-non-white-bodies"
-                            className="nav-links"
-                            
-                        >
-                            Violence with non-white Bodies
-                        </Link>
-                        
-                    </li>  
-                    <li className="nav-item">
-                            
-                        <Link
-                            to="/sexism"
-                            className="nav-links"
-                            
-                        >
-                            Sexism/Dehumanization
-                        </Link>
-                        
-                    </li>   
-                    
-                    <li className="nav-item">
-                                
-                        <Link
-                            to="/non-white-serving"
-                            className="nav-links"
-                                
-                        >
-                            Always Serving
-                        </Link>
-                            
-                    </li>   
 
-                    <li className="nav-item">
-                            
-                        <Link
-                            to="/google-image-search"
-                            className="nav-links"
-                            
-                        >
-                            Google Image Search
-                        </Link>
-                        
-                    </li> 
-
-                    
-             </ul>    
-
-        </section>
     </>
   );
 }
