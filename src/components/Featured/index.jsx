@@ -4,7 +4,9 @@ import './index.css'
 function index() {
   return (
     <>
-      <div className="featured-section">
+      <div className="featured-section"
+      data-scroll-section
+      >
             <div className="featured-row-layout">
             <h6>Sara Batiman 1810</h6>
             <img src="/images/SarahBaartman-APairofBroadBottoms-1810.jpg" alt=""  />

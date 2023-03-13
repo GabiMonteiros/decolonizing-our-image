@@ -6,7 +6,7 @@ import './index.css'
 function Navbar() {
   return (
     <>
-        <div className="navbar">
+        <div className="navbar" data-scroll-section>
             <div className="nav-item">
                 <Link
                     to="/"

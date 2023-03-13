@@ -5,7 +5,7 @@ import './index.css'
 function index() {
   return (
     <>
-        <section className='header-container'>
+        <section className='header-container' data-scroll-section>
             <ul className= 'header-menu'>
                 <li className="nav-item">
                             
