@@ -32,7 +32,13 @@ body{
     height: 850px;
     object-fit: contain;
     margin-top: -147px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
 }
+
+
 
 .ria{
     background: linear-gradient(to top,  #0de9e2, #2cec3c);
