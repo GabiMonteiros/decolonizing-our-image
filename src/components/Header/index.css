@@ -6,31 +6,7 @@
     padding: 0 5vw;
 }   
  
-.header-menu{
-    z-index: 999;
-    position: sticky;
-    top: 100px;
-    left: 0;
-    font-family: 'Syncopate', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: rgb(227, 191, 147);
-    text-transform: uppercase;
-        
-}
-li{
-    margin: 10px 0;
 
-}
-
-
-
-
-
-
-ul{
-    list-style: none;
-}
 
 
 
