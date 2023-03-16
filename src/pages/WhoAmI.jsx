@@ -12,17 +12,17 @@ function WhoAmI() {
         exit={{opacity: 1 }}
       >
 
-        <main>
-          <section className="title wai">
-            <m.h2
+        
+        <section className="title wai" data-scroll-section>
+          <m.h2
 
-              initial={{y: 0 }}
-              animate={{ y: "100%" }}
-              transition={{ delay:0.7, duration: 0.5}}
-            >
-              Who Am I?</m.h2>
-          </section>
-        </main>
+            initial={{y: 0 }}
+            animate={{ y: "100%" }}
+            transition={{ delay:0.7, duration: 0.5}}
+          >
+            Who Am I?</m.h2>
+        </section>
+        
       </m.div>
       
     </>

@@ -1,7 +1,6 @@
 import React from 'react'
 import {  Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
-import RacismisAesthetic from "../pages/RacismisAesthetic";
 import Sexism from "../pages/Sexism";
 import NonWhiteServing from '../pages/NonWhiteServing';
 import GoogleImageSearch from "../pages/GoogleImageSearch";
@@ -12,10 +11,9 @@ import WhiteCentrism from '../pages/WhiteCentrism';
 
 
 const Content = (props) =>(
-    <main className="Content">
+    <main className="Content" data-scroll-container>
         <Routes> 
             <Route extact path='/' element={ <Home />}></Route>
-            <Route extact path='/racism-is-aesthetic' element={ <RacismisAesthetic />}></Route>
             <Route extact path='/white-centrism' element={ <WhiteCentrism />}></Route>
 
             <Route extact path='/violence-with-non-white-bodies' element={ <ViolenceNonWhiteBodies />}></Route>

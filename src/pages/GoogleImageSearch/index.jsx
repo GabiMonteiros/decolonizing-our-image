@@ -4,14 +4,16 @@ import {motion as m }from 'framer-motion';
 function GoogleImageSearch() {
   return (
     <>
-      <m.div
-        initial={{y: "100%" }}
-        animate={{ y: "0%" }}
-        transition={{duration:0.75, ease: 'easeOut'}} 
-        exit={{opacity: 1 }}
-      >
+      <div data-scroll-section>
 
-        <main>
+        <m.div
+          initial={{y: "100%" }}
+          animate={{ y: "0%" }}
+          transition={{duration:0.75, ease: 'easeOut'}} 
+          exit={{opacity: 1 }}
+        >
+
+          
           <section className='title gis'>
             <m.h2
 
@@ -22,8 +24,9 @@ function GoogleImageSearch() {
               Google Image Search
             </m.h2>
           </section>
-        </main>
-      </m.div>
+          
+        </m.div>
+      </div>
   
     </>
    

@@ -23,7 +23,7 @@ function Navbar() {
   return (
         <>
             <IconContext.Provider value={{color: '#e3be92'}}>
-                <div className="navbar" >
+                <div className="navbar" data-scroll-section >
                     {/* navbar */}
                         <Link
                             

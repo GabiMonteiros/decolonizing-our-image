@@ -4,13 +4,14 @@ import './index.css'
 function index() {
   return (
     <>
-      <section className='header-container' data-scroll-section></section>
+      <section className='header-container' data-scroll-section>
 
-      <section className='text-container'>
+      <div className='text-container'>
         <h1 className='header-text'> 
           Decolonize  
           <br></br>The Image
         </h1>
+      </div>
       </section>
     </>
   )

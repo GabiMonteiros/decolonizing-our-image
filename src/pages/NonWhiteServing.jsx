@@ -19,42 +19,45 @@ function NonWhiteServing() {
       })
   return (
     <>
-        <m.div 
-            initial={{y: "100%" }}
-            animate={{ y: "0%" }}
-            transition={{duration:0.75, ease: 'easeOut'}} 
-            exit={{opacity: 1 }}
-        >
+        <div data-scroll-section>
 
-            <main>
-                <section className='title nws'>
+            <m.div 
+                initial={{y: "100%" }}
+                animate={{ y: "0%" }}
+                transition={{duration:0.75, ease: 'easeOut'}} 
+                exit={{opacity: 1 }}
+            >
+
+            
+                <section className='title nws' >
                     <m.h2
                         initial={{y: 0 }}
                         animate={{ y: "100%" }}
                         transition={{ delay:0.7, duration: 0.5}}
                     >
-                        The non-white  <br></br>always serving
+                        The non-white always serving
                     </m.h2>
                 </section>
-            </main>
+                
 
-            <div className="img_container"> 
-            <div className="img_box"></div>
-            </div>
+                <div className="img_container"> 
+                <div className="img_box"></div>
+                </div>
 
-            <Gallery/>
+                <Gallery/>
 
-        </m.div>
+            </m.div>
 
-        <section className={"about-section"}>
-        <SectionText title='White Centrism'/>
-            <p className="headline">
-            Flirty Flowers is a blog about flowers and the floral designers who make
-            them into art. Creativity and the art of ‘making’ require dialogue. The
-            full purpose of the Flirty Flowers blog is to encourage and inspire. We
-            value art, we value insight, and we value opinion.
-            </p>
-        </section>
+            <section className={"about-section"}>
+            <SectionText title='White Centrism'/>
+                <p className="headline">
+                Flirty Flowers is a blog about flowers and the floral designers who make
+                them into art. Creativity and the art of ‘making’ require dialogue. The
+                full purpose of the Flirty Flowers blog is to encourage and inspire. We
+                value art, we value insight, and we value opinion.
+                </p>
+            </section>
+        </div>    
     </>
   )
 }

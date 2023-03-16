@@ -4,7 +4,10 @@ import './index.css'
 function SectionText({title}) {
   return (
     <>
-      <h6 className='section-text'>{title}</h6>
+      <section data-scroll-section>
+        <h6 className='section-text'>{title}</h6>
+      </section>
+      
     </>
   )
 }
