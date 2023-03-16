@@ -28,7 +28,7 @@ function ViolenceNonWhiteBodies() {
         exit={{opacity: 1 }}
       >
         <main>
-          <section  className="title vwnwb">
+          <section className="title vwnwb">
           <m.h2
               initial={{y: 0 }}
               animate={{ y: "100%" }}

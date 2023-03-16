@@ -1,6 +1,8 @@
 import React, {useEffect} from 'react';
 import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
+import Gallery from '../components/Gallery'
+
 import SectionText from '../components/SectionText';
 
 function NonWhiteServing() {
@@ -25,21 +27,22 @@ function NonWhiteServing() {
         >
 
             <main>
-            <section className='title sex'>
-                <m.h2
-                    initial={{y: 0 }}
-                    animate={{ y: "100%" }}
-                    transition={{ delay:0.7, duration: 0.5}}
-                >
-                    The non-white always serving
-                </m.h2>
-            </section>
+                <section className='title nws'>
+                    <m.h2
+                        initial={{y: 0 }}
+                        animate={{ y: "100%" }}
+                        transition={{ delay:0.7, duration: 0.5}}
+                    >
+                        The non-white  <br></br>always serving
+                    </m.h2>
+                </section>
             </main>
 
             <div className="img_container"> 
             <div className="img_box"></div>
             </div>
 
+            <Gallery/>
 
         </m.div>
 

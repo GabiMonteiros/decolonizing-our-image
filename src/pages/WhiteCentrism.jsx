@@ -30,20 +30,20 @@ function WhiteCentrism() {
         exit={{opacity: 1 }}
       >
 
-        <section className='title ria'>
-            <m.h2
-            nitial={{y: 0 }}
+        <section className='title wc'>
+          <m.h2
+            initial={{y: 0 }}
             animate={{ y: "100%" }}
             transition={{ delay:0.7, duration: 0.5}}
-            >
+          >
             White Centrism
-            </m.h2>
+          </m.h2>
 
         </section>
 
         {/* <section className='section-wrapper gallery-wrap'> </section> */}
             <div className="image-container">
-                <div className="img_box"></div>
+              <div className="img_box"></div>
             </div>
       
 

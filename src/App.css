@@ -8,11 +8,10 @@ body{
 }
 
 .title{
-    min-height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 200px;
+    height: 120hv;
+    /* display: flex; */
+    padding: 0;
+    /* padding-bottom: 200px; */
 }
 
 .title h2{
@@ -20,18 +19,32 @@ body{
     color: antiquewhite;
     font-family: 'Lato';
     font-weight:bolder;
+    text-align: center;
+    margin-bottom: 800px;
+
+}
+
+
+
+.wc,
+.gis,
+.sex,
+.wai{
+    width: 100%;
+    margin-top: -150px;
+    /* media qu 200px*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
     
 }
 
-.ria,
-.sex,
-.wai,
+
 .vwnwb,
-.gis{
+.nws{
     width: 100%;
-    height: 850px;
-    object-fit: contain;
-    margin-top: -147px;
+    margin-top: -300px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -40,7 +53,7 @@ body{
 
 
 
-.ria{
+.wc{
     background: linear-gradient(to top,  #0de9e2, #2cec3c);
 
 }
@@ -56,12 +69,15 @@ body{
 
 .vwnwb{
     background: linear-gradient(to top, #8E2DE2, #0de9e2);
+   
 }
 .gis{
     background: linear-gradient(to top, #af7a06, #ff5a18) ;
 }
 
-
+.nws{
+    background: linear-gradient(to top,#633de9 , #0ca9ec)
+}
 
 
 .img_box{

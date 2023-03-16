@@ -11,21 +11,20 @@
 
 
 .text-container{
-    
-    height: 900px;
+    height: 120vh;
     background: linear-gradient(to top,  #0de9e2, #2cec3c);
     padding: 0;
 }
 
 
-#header-text{
+.header-text{
     font-size: 13vw;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: rgb(47, 45, 41);
-    margin-top: -220px;
+    margin-top: -190px;
     padding-top: 280px;
        
 
