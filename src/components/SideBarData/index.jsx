@@ -1,13 +1,9 @@
-//  import React from 'react'
-//  import * as GrIcons from "react-icons/gr";
-// import * as CgIcons from "react-icons/cg";
 
 
 export const SidebarData = [
     {
         title: 'Home',
         path: '/',
-        
         clName: 'nav-text',
     },
     {

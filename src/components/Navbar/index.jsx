@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 import * as CgIcons from "react-icons/cg";
+// import * as FaIcons from 'react-icons/fa'
 import * as AiIcons from 'react-icons/ai';
 import {Link} from 'react-router-dom'
-import  SideBarData  from '../SideBarData';
-
+import SideBarData from '../SideBarData'
 import './index.css'
-import { IconContext } from 'react-icons/lib';
+import { IconContext } from 'react-icons';
 
 // import { IconContext } from 'react-icons CgMenuHotdog';
 
@@ -14,26 +14,29 @@ import { IconContext } from 'react-icons/lib';
 
 function Navbar() {
 
+    
+
     const [sidebar, setSidebar] = useState(false)
     const showSidebar = () => setSidebar(!sidebar)
-
+    
 
   return (
         <>
             <IconContext.Provider value={{color: '#e3be92'}}>
-                <div className="navbar" data-scroll-section>
+                <div className="navbar" >
                     {/* navbar */}
                         <Link
-                            to='/'
+                            
                            className="menu-bars"     
                         >
                             <CgIcons.CgMenuHotdog onClick={showSidebar} />
+                            {/* <FaIcons.FaBars onClick={showSidebar} /> */}
                         </Link> 
                     
-                    <nav className={ sidebar ? 'nav-menu active' : 'nav-menu'}>
-                        <ul className= 'nav-menu-items' onClick={showSidebar}>
-                            <li className='navbar-toggle'>
-                                <Link  to="/" className='menu-bars close' >
+                    <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+                        <ul className='nav-menu-items' onClick={showSidebar}>
+                            <li className='navbar-toggle close'>
+                                <Link to='/' className='menu-bars '>
 
                                     <AiIcons.AiOutlineClose/>
                                 </Link>
@@ -42,8 +45,8 @@ function Navbar() {
                                 return(
                                     <li key={index} className={item.clName}>
                                         <Link to={item.path}>
-                                            {item.icon}
                                             <span>{item.title}</span>
+                                            
                                         </Link>
                                     </li>
                                 )
