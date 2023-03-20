@@ -10,8 +10,10 @@ import ViolenceNonWhiteBodies from '../pages/ViolenceNonWhiteBodies';
 import WhiteCentrism from '../pages/WhiteCentrism';
 
 
+
 const Content = (props) =>(
-    <main className="Content" data-scroll-container>
+    // <main className="main-container" data-scroll-container></main>
+    <main>
         <Routes> 
             <Route extact path='/' element={ <Home />}></Route>
             <Route extact path='/white-centrism' element={ <WhiteCentrism />}></Route>

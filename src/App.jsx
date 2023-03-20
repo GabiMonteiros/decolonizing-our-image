@@ -12,7 +12,7 @@ import Content from './setup/Content';
 
 
 const App = (props, router) => (
-    <div className="App"  data-scroll-container>
+    <div className="App main-container"  data-scroll-container>
         
         <BrowserRouter>
             <Navbar/>
