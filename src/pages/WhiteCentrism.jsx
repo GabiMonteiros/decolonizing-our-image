@@ -35,7 +35,7 @@ function WhiteCentrism() {
             <m.h2
               initial={{y: 0 }}
               animate={{ y: "100%" }}
-              transition={{ delay:0.7, duration: 0.5}}
+              transition={{ delay:0.7, duration: 0.80}}
             >
               White Centrism
             </m.h2>

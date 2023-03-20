@@ -35,11 +35,11 @@ function Navbar() {
                     
                     <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                         <ul className='nav-menu-items' onClick={showSidebar}>
-                            <li className='navbar-toggle close'>
-                                <Link to='/' className='menu-bars '>
+                            <li className='navbar-toggle close  menu-bars '>
+                             
 
-                                    <AiIcons.AiOutlineClose/>
-                                </Link>
+                                <AiIcons.AiOutlineClose/>
+                                
                             </li>
                             {SideBarData.map((item, index) => {
                                 return(

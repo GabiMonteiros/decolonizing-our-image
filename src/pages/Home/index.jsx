@@ -16,7 +16,7 @@ const Home = () => {
   
     <>
       
-      <div id='main-containe'r data-scroll-section> 
+      <div id='main-containe' data-scroll-section> 
         <Header/>
         <Featured/>
           

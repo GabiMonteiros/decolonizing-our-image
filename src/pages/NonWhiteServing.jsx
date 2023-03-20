@@ -33,7 +33,7 @@ function NonWhiteServing() {
                     <m.h2
                         initial={{y: 0 }}
                         animate={{ y: "100%" }}
-                        transition={{ delay:0.7, duration: 0.5}}
+                        transition={{ delay:0.7, duration: 0.80}}
                     >
                         The non-white always serving
                     </m.h2>
