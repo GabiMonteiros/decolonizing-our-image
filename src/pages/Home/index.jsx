@@ -15,7 +15,7 @@ const Home = () => {
   return (
   
     <>
-      
+       
       <div id='main-containe' data-scroll-section> 
         <Header/>
         <Featured/>

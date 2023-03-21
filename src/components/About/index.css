@@ -8,4 +8,27 @@
 .about-section p{
     font-size: 40px; /*70px*/
     line-height: 1.18;
- }
+    opacity: 0;
+
+}
+
+/* > div {
+    opacity: 0;
+    transform: translateY(0px);
+} */
+section{
+    /* opacity: 0; */
+    transform: translate(0px) ;
+}
+
+p .is-reveal{
+    opacity: 1;
+} 
+
+
+
+/* #text-about{
+    padding: 0 3vw 0 5vw;
+    font-size: 40px; /*70px*/
+    /*line-height: 1.18;
+} */
