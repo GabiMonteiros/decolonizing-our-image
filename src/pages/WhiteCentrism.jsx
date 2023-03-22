@@ -24,7 +24,7 @@ function WhiteCentrism() {
     <>
     
      
-      <div data-scroll-section>
+      <div className="pages-container" data-scroll-section>
         <m.div 
           initial={{y: "100%" }}
           animate={{ y: "0%" }}

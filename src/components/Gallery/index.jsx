@@ -1,4 +1,7 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
+ import gsap from 'gsap'
+// import ScrollTrigger from 'gsap/ScrollTrigger';
+// import cn from 'classnames';
 import './index.css';
 
 //array of images  - 18.30min
@@ -58,11 +61,34 @@ function GalleryItem({src, category, subtitle,title,updateActiveImage, index}) {
 
 export default function Gallery(){
     const [activeImage, setActiveImage] =useState(1); 
+    const ref = useRef(null)
+
+    useEffect(()=>{
+
+        setTimeout(()=>{
+
+            const sections = gsap.utils.toArray('.gallery-item-wrapper');
+            gsap.to(sections,{
+                xPercent: -100 * (sections.length-1),
+                ease:'none',
+                scrollTrigger:{
+                    start: 'top top',
+                    trigger: ref.current,
+                    scroll: '.pages-container',
+                    pin: true,
+                    scrub: 0.5,
+                    span: 1/(sections.length-1),
+                    end:()=> `+=$ {ref.current.offsetWidth}`,
+                },
+            })
+            //ScrollTrigger.refresh()
+        })
+    },[])
     return( 
         <>
             <section className='section-wrapper gallery-wrap'  data-scroll-section>
 
-                <div className="gallery">
+                <div className="gallery" ref={ref}>
                     <div className="gallery-counter"> {/* slideshow */}
                         <span>{activeImage}</span>
                         <span className='divider'/>

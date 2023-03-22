@@ -79,15 +79,18 @@ body{
     background: linear-gradient(to top,#633de9 , #0ca9ec)
 }
 
-
+.image-container{
+    margin: 0 auto ;
+   
+}
 .img_box{
     
     
     margin: 0 auto ;
     margin-top: 80px;
     
-    height: 700px;
-    width: 1000px;
+    height: 800px;
+    width: 850px;
     
 }
 
