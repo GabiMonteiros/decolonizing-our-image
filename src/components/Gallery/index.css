@@ -91,7 +91,7 @@
     display: grid;
     grid-template-columns: 20vw 1 fr 200px;
     width: 65vw;  /*original 100 controlo a larguda da imagem na galleria*/
-
+ 
 }    
 
 .gallery-item-image{

@@ -1,12 +1,12 @@
 import React, {useState, useEffect, useRef} from 'react';
  import gsap from 'gsap'
-// import ScrollTrigger from 'gsap/ScrollTrigger';
-// import cn from 'classnames';
+import ScrollTrigger from 'gsap/ScrollTrigger';
+import cn from 'classnames';
 import './index.css';
 
 //array of images  - 18.30min
 const images=[
-    {
+    { 
         src: '/images/01JeanBaptisteDebret1823.png' ,
         title: 'A Brazilian Lady in her interior',
         subtitle: 'Jean Baptiste Debret, 1823',
@@ -38,11 +38,22 @@ const images=[
 
 //creating a new component 
 function GalleryItem({src, category, subtitle,title,updateActiveImage, index}) {
+    const ref = useRef(null);
+    const onScreen = useOnScreen(ref, 0.5);
+    useEffect(() => {
+        if(onScreen){
+            updateActiveImage(index);
+        }
+        
+    }, [onScreen, index]);
+
     return( 
         <>
-            <div className='gallery-item-wrapper' data-scroll-section>
+            <div className='gallery-item-wrapper' data-scroll-section
+            ref={ref}
+            >
                 {/* <div></div> */}
-                <div className="gallery-item">
+                <div className={cn("gallery-item", {'is-reveal': onScreen})}>
                     <div className="gallery-item-info">
                         <h1 className='gallery-info-title'>{title}</h1>
                         <h6 className='gallery-info-subtitle'>{subtitle}</h6>
@@ -81,7 +92,7 @@ export default function Gallery(){
                     end:()=> `+=$ {ref.current.offsetWidth}`,
                 },
             })
-            //ScrollTrigger.refresh()
+            // ScrollTrigger.refresh()
         })
     },[])
     return( 

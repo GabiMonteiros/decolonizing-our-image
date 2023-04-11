@@ -29,7 +29,6 @@
 
 
 
-
 .nav-links{
     text-decoration: none;
     color: rgb(227, 191, 147);
@@ -69,6 +68,11 @@
     
 }
 
+.nav-item a:hover{
+    color: aliceblue;
+}
+
+
 .nav-text a{
     text-decoration: none;
     color: #e3be92;
@@ -94,6 +98,8 @@
     padding-left: 20px;
     height: 60px;
 }
+
+
 
 .navbar-toggle{
     width: 100%;

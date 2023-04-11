@@ -30,7 +30,7 @@ function Navbar() {
                            className="menu-bars"     
                         >
                             <CgIcons.CgMenuHotdog onClick={showSidebar} />
-                            {/* <FaIcons.FaBars onClick={showSidebar} /> */}
+                         
                         </Link> 
                     
                     <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
@@ -62,7 +62,7 @@ function Navbar() {
                             className="nav-links"
                                         
                         >
-                            Decolonize the Image
+                            Decolonizing Our Image
                         </Link>    
                     </div>
 

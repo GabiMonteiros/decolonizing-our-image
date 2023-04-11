@@ -38,8 +38,8 @@ function  Header() {
 
       <div id='text-container'>
         <h1 id='header-text'> 
-          Decolonize  
-          <br></br>The Image
+          Decolonizing  
+          <br></br>Our Image
         </h1>
       </div>
       </section>
