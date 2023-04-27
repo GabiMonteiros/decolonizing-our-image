@@ -12,13 +12,13 @@ export const SidebarData = [
         clName: 'nav-text',
     },
     {
-        title: 'Violence with non-white Bodies',
-        path: '/violence-with-non-white-bodies',
+        title: 'Violence with black Bodies',
+        path: '/violence-black-bodies',
         clName: 'nav-text',
     },
     {
-        title: 'Sexism/Dehumanization',
-        path: '/sexism',
+        title: 'Dehumanization and Entertainment',
+        path: '/dehumanization',
         clName: 'nav-text',
     },
     {

@@ -43,9 +43,9 @@ function WhiteCentrism() {
           </section>
 
           {/* <section className='section-wrapper gallery-wrap'> </section> */}
-              <div className="image-container">
-                <div className="img_box"></div>
-              </div>
+            <div className="image-container">
+              <div className="img_box"></div>
+             </div>
         
 
           <Gallery/>

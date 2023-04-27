@@ -35,7 +35,7 @@ function Sexism() {
               animate={{ y: "100%" }}
               transition={{ delay:0.7, duration: 0.80}}
             > 
-              Sexism
+              Dehumanization, the black as entertainment
             </m.h2>
           </section>
         

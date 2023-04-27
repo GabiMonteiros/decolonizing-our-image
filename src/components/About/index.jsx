@@ -52,12 +52,16 @@ function About() {
           <p  ref={ref} id="text-about"
           className={cn({'is-reveal': reveal})}
           >
-          PILARES DA COLONIZAÇAO Flirty Flowers is a blog about flowers and the floral designers who make
-          them into art. Creativity and the art of ‘making’ require dialogue. The
-          full purpose of the Flirty Flowers blog is to encourage and inspire. We
-          value art, we value insight, and we value opinion.them into art. Creativity and the art of ‘making’ require dialogue. The
-          full purpose of the Flirty Flowers blog is to encourage and inspire. We
-          value art, we value insight, and we value opinion.
+          Ideologias coloniais criadas há mais de 500 anos que reproduzem a lógica de dominação e inferiorização das pessoas não brancas no mundo Ocidental,
+          são sustentadas até os dias de hoje através de imagens sejam fotograficas ou de vídeo. 
+          Partindo da minha pesquisa entitulada 'Racismo é Estético' e seguindo teoricas como Patricia Hill Collins 
+           mídia tem um lugar central para consolidação e manutenção das imagens de controle  e de privilégios. 
+          As imagens de controle neutralizam na elite / branquitude os impactos que a manutenção dos seus privilégios 
+          econômicos e sociais causaram na vida da população não branca. Tem um motivo para essas imagens de controle 
+          serem propagadas de forma tão massiva  na mídia para q seja confortável para à população branca que haja 
+          justificativas ideológicas que lhes retire a responsabilidade de responder pelo continuo de violência que 
+          a exploração econômica do não branco  que significa na manutenção e construção do status quo da branquitude.
+          Assim essas pessoas se confortam e tem uma justificativa para o processo contínuo de desumanização dos não brancos, q não os afetam 
           </p>
       </section>
       

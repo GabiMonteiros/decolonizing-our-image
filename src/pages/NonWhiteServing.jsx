@@ -35,7 +35,7 @@ function NonWhiteServing() {
                         animate={{ y: "100%" }}
                         transition={{ delay:0.7, duration: 0.80}}
                     >
-                        The non-white always serving
+                        Always Serving
                     </m.h2>
                 </section>
                 
