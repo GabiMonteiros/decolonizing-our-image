@@ -48,7 +48,6 @@ function About() {
         data-scroll-section
       >
         <SectionText title='Why decolonize?'/>
-          {/* <p  className="headline"> */}
           <p  ref={ref} id="text-about"
           className={cn({'is-reveal': reveal})}
           >

@@ -20,7 +20,7 @@ const Content = (props) =>(
 
             <Route extact path='/violence-black-bodies' element={ <ViolenceNonWhiteBodies />}></Route>
             <Route extact path='/dehumanization' element={ <Sexism />}></Route>
-            <Route extact path='/non-white-serving' element={ <NonWhiteServing />}></Route>
+            <Route extact path='/always-serving' element={ <NonWhiteServing />}></Route>
             <Route extact path='/google-image-search' element={ <GoogleImageSearch />}></Route>
             <Route extact path='/who-am-I' element={ <WhoAmI />}></Route>
             

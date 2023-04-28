@@ -33,7 +33,7 @@ function ViolenceNonWhiteBodies() {
               initial={{y: 0 }}
               animate={{ y: "100%" }}
               transition={{ delay:0.7, duration: 0.80}}
-            > Violence With <br></br> Black Bodies
+            > Violence Against <br></br> Black Bodies
             </m.h2>
           </section>
           
@@ -43,7 +43,7 @@ function ViolenceNonWhiteBodies() {
           </div>
         </m.div>
         <section className={"about-section"}>
-          <SectionText title='White Centrism'/>
+          <SectionText title='Violence Againts Black Bodies'/>
             <p className="headline">
               Flirty Flowers is a blog about flowers and the floral designers who make
               them into art. Creativity and the art of ‘making’ require dialogue. The

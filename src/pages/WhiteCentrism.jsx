@@ -1,8 +1,9 @@
 import React, {useEffect}  from 'react';
 import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
-import Gallery from '../components/Gallery'
+// import Gallery from '../components/Gallery'
 import SectionText from '../components/SectionText';
+import SectionGallery from '../components/SectionGallery';
 
 function WhiteCentrism() {
 
@@ -48,7 +49,11 @@ function WhiteCentrism() {
              </div>
         
 
-          <Gallery/>
+          {/* <Gallery/> */}
+          {/* eslint-disable-next-line */}
+          <SectionGallery img= {(<img src='/images/01JeanBaptisteDebret1823.png' />)} />
+         {/* eslint-disable-next-line */}
+          <SectionGallery img= {(<img src='/images/01vogue2.png' />)} />
 
         </m.div>
 
@@ -61,7 +66,7 @@ function WhiteCentrism() {
               value art, we value insight, and we value opinion.
             </p>
         </section>
-      </div>
+      </div> 
     </>
   )
 }

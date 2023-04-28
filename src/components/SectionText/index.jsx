@@ -13,3 +13,4 @@ function SectionText({title}) {
 }
 
 export default SectionText
+ 
