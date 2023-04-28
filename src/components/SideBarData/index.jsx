@@ -12,7 +12,7 @@ export const SidebarData = [
         clName: 'nav-text',
     },
     {
-        title: 'Violence with black Bodies',
+        title: 'Violence against black Bodies',
         path: '/violence-black-bodies',
         clName: 'nav-text',
     },

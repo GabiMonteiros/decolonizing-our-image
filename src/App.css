@@ -24,12 +24,12 @@ body{
 
 }
 
-
+ 
 
 .wc,
 .gis,
-.sex,
-.wai{
+.wai,
+.as{
     width: 100%;
     margin-top: -100px;
     /* media qu 200px*/
@@ -42,9 +42,9 @@ body{
 
 
 .vwnwb,
-.nws{
+.deh{
     width: 100%;
-    margin-top: -300px;
+    margin-top: -280px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -58,8 +58,9 @@ body{
 
 }
 
-.sex{
+.deh{
     background: linear-gradient(to top, #ff5a18, #8E2DE2) ;
+    
 }
 
 
@@ -75,7 +76,7 @@ body{
     background: linear-gradient(to top, #af7a06, #ff5a18) ;
 }
 
-.nws{
+.as{
     background: linear-gradient(to top,#633de9 , #0ca9ec)
 }
 

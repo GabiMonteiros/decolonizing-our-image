@@ -34,19 +34,3 @@ const App = (props, router) => (
 export default App;
 
 
-// const App = (props, router) => (
-//     <div className="App">
-//         <BrowserRouter>
-//             <Navbar/>
-//             <AnimatePresence >
-//                 <Content key={router.pathname} {...props}/>
-//             </AnimatePresence>
-            
-//             {/* <ScrollToTop/>
-            
-//             <Content />
-//             <Footer/> */}
-           
-//         </BrowserRouter>
-//     </div>
-// );

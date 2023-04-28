@@ -1,16 +1,16 @@
 import React from 'react'
 import {  Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
-import Sexism from "../pages/Sexism";
-import NonWhiteServing from '../pages/NonWhiteServing';
+import Sexism from "../pages/Dehumanization";
+import NonWhiteServing from '../pages/AlwaysServing';
 import GoogleImageSearch from "../pages/GoogleImageSearch";
 import WhoAmI from "../pages/WhoAmI";
 import NotFound from "../pages/NotFound";
-import ViolenceNonWhiteBodies from '../pages/ViolenceNonWhiteBodies';
+import ViolenceNonWhiteBodies from '../pages/ViolenceBlackBodies';
 import WhiteCentrism from '../pages/WhiteCentrism';
 
 
-
+ 
 const Content = (props) =>(
     // <main className="main-container" data-scroll-container></main>
     <main>
@@ -18,8 +18,8 @@ const Content = (props) =>(
             <Route extact path='/' element={ <Home />}></Route>
             <Route extact path='/white-centrism' element={ <WhiteCentrism />}></Route>
 
-            <Route extact path='/violence-with-non-white-bodies' element={ <ViolenceNonWhiteBodies />}></Route>
-            <Route extact path='/sexism' element={ <Sexism />}></Route>
+            <Route extact path='/violence-black-bodies' element={ <ViolenceNonWhiteBodies />}></Route>
+            <Route extact path='/dehumanization' element={ <Sexism />}></Route>
             <Route extact path='/non-white-serving' element={ <NonWhiteServing />}></Route>
             <Route extact path='/google-image-search' element={ <GoogleImageSearch />}></Route>
             <Route extact path='/who-am-I' element={ <WhoAmI />}></Route>
@@ -30,3 +30,4 @@ const Content = (props) =>(
 );
 
 export default Content;
+

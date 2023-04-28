@@ -29,7 +29,7 @@ function NonWhiteServing() {
             >
 
             
-                <section className='title nws' >
+                <section className='title as' >
                     <m.h2
                         initial={{y: 0 }}
                         animate={{ y: "100%" }}
