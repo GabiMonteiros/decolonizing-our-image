@@ -17,13 +17,13 @@ export const SidebarData = [
         clName: 'nav-text',
     },
     {
-        title: 'Dehumanization and Entertainment',
+        title: 'Dehumanization as Entertainment',
         path: '/dehumanization',
         clName: 'nav-text',
     },
     {
         title: 'Always Serving',
-        path: '/non-white-serving',
+        path: '/always-serving',
         clName: 'nav-text',
     },
     {

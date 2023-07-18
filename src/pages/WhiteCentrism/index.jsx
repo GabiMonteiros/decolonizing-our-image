@@ -2,8 +2,8 @@ import React, {useEffect}  from 'react';
 import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
 // import Gallery from '../components/Gallery'
-import SectionText from '../components/SectionText';
-import SectionGallery from '../components/SectionGallery';
+import SectionText from '../../components/SectionText';
+//import SectionGallery from '../components/SectionGallery';
 
 function WhiteCentrism() {
 
@@ -20,7 +20,6 @@ function WhiteCentrism() {
             
         })
     })
-
   return (
     <>
     
@@ -42,20 +41,32 @@ function WhiteCentrism() {
             </m.h2>
 
           </section>
-
+          
           {/* <section className='section-wrapper gallery-wrap'> </section> */}
             <div className="image-container">
               <div className="img_box"></div>
-             </div>
+            </div>
         
 
           {/* <Gallery/> */}
-          {/* eslint-disable-next-line */}
-          <SectionGallery img= {(<img src='/images/01JeanBaptisteDebret1823.png' />)} />
-         {/* eslint-disable-next-line */}
-          <SectionGallery img= {(<img src='/images/01vogue2.png' />)} />
+
+          
+          
+          
 
         </m.div>
+
+       
+            <div  className='main bg'>
+              <img src='/images/01JeanBaptisteDebret1823.png' alt=''/>
+              
+            </div>
+            <div className='main bg2'>
+                <img src='/images/01vogue2.png' alt='' />
+            </div>
+        
+
+          
 
         <section className={"about-section"}>
           <SectionText title='White Centrism'/>

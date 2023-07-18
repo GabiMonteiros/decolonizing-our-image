@@ -1,18 +1,18 @@
 import React, {useState} from 'react';
 import './index.css';
 
-//array of images  - 18.30min
+//array of images  - 18.30min no Web Unlocked
 const images=[
-    // { 
-    //     src: '/images/01JeanBaptisteDebret1823.png' ,
-    //     title: 'A Brazilian Lady in her interior',
-    //     subtitle: 'Jean Baptiste Debret, 1823',
-    //     category: 'Whitecentrism',
+    { 
+        src: '/images/01JeanBaptisteDebret1823.png' ,
+        title: 'A Brazilian Lady in her interior',
+        subtitle: 'Jean Baptiste Debret, 1823',
+       
 
-    // },
+    },
     {
         src: '/images/01vogue2.png' ,
-        title: 'Editorial to the  Gucci store in Copacabana',
+        title: ' Gucci store in Copacabana',
         subtitle: 'Vogue Brazil, 2019',
 
     },
@@ -23,18 +23,17 @@ const images=[
     //     category: 'Whitecentrism',
 
     // },
-    {
-        src: '/images/02AcoiteJeanBaptisteDebret1834-1839.png' ,
-        title: 'Editorial to the Gucci store in Copacabana',
-        subtitle: 'Vogue Brazil, 2019',
+    // {
+    //     src: '/images/02AcoiteJeanBaptisteDebret1834-1839.png' ,
+    //     title: 'Editorial to the Gucci store in Copacabana',
+    //     subtitle: 'Vogue Brazil, 2019',
 
-    },
+    // },
 ];
 
 //creating a new component 
 function GalleryItem({
     src, 
-    category, 
     subtitle,
     title,
     updateActiveImage, 
@@ -49,7 +48,6 @@ function GalleryItem({
                     <div className="gallery-item-info">
                         <h1 className='gallery-info-title'>{title}</h1>
                         <h6 className='gallery-info-subtitle'>{subtitle}</h6>
-                        {/* <p className='gallery-info-category'>{category}</p> */}
                     </div>
                     <div className="gallery-item-image"
                     style={{backgroundImage:`url(${src})`}}
@@ -70,7 +68,7 @@ export default function Gallery()  {
             <section className='section-wrapper gallery-wrap'  data-scroll-section>
 
                 <div className="gallery">
-                    <div className="gallery-counter"> {/* slideshow */}
+                    <div className="gallery-counter"> {/* slideshow /contador */}
                         <span>{activeImage}</span>
                         <span className='divider'/>
                         <span>{images.length}</span>

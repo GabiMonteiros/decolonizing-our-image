@@ -10,8 +10,8 @@ function Sexism() {
     var image_animate = new hoverEffect({ 
       parent: document.querySelector('.img_box'),
       intensity: 0.7,
-      image1: '/images/01JeanBaptisteDebret1823.jpg' ,
-      image2:'/images/01Vogue.png',
+      image1: '/images/Museum-Treptow-HumanZoo-1896.jpg' ,
+      image2:'/images/Museum-Treptow-HumanZoo-1896.jpg',
       displacementImage: '/images/heightMap.png'
         
     })
@@ -35,7 +35,7 @@ function Sexism() {
               animate={{ y: "100%" }}
               transition={{ delay:0.7, duration: 0.80}}
             > 
-              Dehumanization. The Black as Entertainment
+              Dehumanization as Entertainment
             </m.h2>
           </section>
         
@@ -47,7 +47,7 @@ function Sexism() {
           <Gallery/>
         </m.div>
         <section className={"about-section"}>
-          <SectionText title='Dehumanization. The Black as Entertainment'/>
+          <SectionText title='Dehumanization as Entertainment'/>
           <p className="headline">
             Flirty Flowers is a blog about flowers and the floral designers who make
             them into art. Creativity and the art of ‘making’ require dialogue. The
