@@ -30,6 +30,7 @@
 ##
 <h3 align="left">Showroom:</h3>
 
-https://github.com/GabiMonteiros/hthci-f/tree/main/hthci-website
+https://github.com/GabiMonteiros/decolonizing-our-image
+
 
 ![GIFDEMO!](largeGIF.gif)
