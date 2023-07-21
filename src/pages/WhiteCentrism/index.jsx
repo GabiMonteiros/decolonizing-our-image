@@ -21,7 +21,7 @@ function WhiteCentrism() {
         })
     })
   return (
-    <>
+    <> 
     
      
       <div className="pages-container" data-scroll-section>

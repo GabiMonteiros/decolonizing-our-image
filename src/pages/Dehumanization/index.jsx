@@ -10,8 +10,8 @@ function Sexism() {
     var image_animate = new hoverEffect({ 
       parent: document.querySelector('.img_box'),
       intensity: 0.7,
-      image1: '/images/Museum-Treptow-HumanZoo-1896.jpg' ,
-      image2:'/images/Museum-Treptow-HumanZoo-1896.jpg',
+      image1: '/images/Museum-Treptow-HumanZoo-1896.png' ,
+      image2:'/images/posterHumanZoo.png',
       displacementImage: '/images/heightMap.png'
         
     })
