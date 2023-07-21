@@ -1,5 +1,5 @@
-<h1 align="center">Decolonizing Our Image Website Project</h1>
-<h3 align="center">The website is being developed for a personal research which I started 5 years ago. Based on the comparison of structure of images from the past centuries and the present day. Highlighting that racism is aesthetic and is the perpetuation of a structural image system that has been repeated since colonial times is a sophisticated way of controlling the images of everyone who does not look like the colonizers. </h3>
+<h1 align="center">🌿Decolonizing Our Image Website Project🌿</h1>
+<h3 align="center">The website is being developed for a personal research based on the comparison of structure of images from the past centuries and the present day.</h3>
 
 ##
 <h3 align="left">Technologies:</h3>
@@ -12,7 +12,6 @@
   - JavaScript 
   - HTML
   - CSS
-  - Three hover-effect
     
 </div>
 
@@ -33,4 +32,5 @@
 
 https://github.com/GabiMonteiros/decolonizing-our-image
 
-decolonizing-our-image.gif
+
+![GIFDEMO!](largeGIF.gif)
