@@ -36,4 +36,4 @@
 https://github.com/GabiMonteiros/decolonizing-our-image
 
 
-decolonizing-our-image.gif
+![GIFDEMO!](decolonizing-our-image.gif)
