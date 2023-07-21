@@ -35,6 +35,5 @@
 
 https://github.com/GabiMonteiros/decolonizing-our-image
 
- HEAD
-![GIFDEMO!](largeGIF.gif)
 
+decolonizing-our-image.gif
