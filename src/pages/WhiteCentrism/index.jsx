@@ -1,7 +1,7 @@
 import React, {useEffect}  from 'react';
 import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
-// import Gallery from '../components/Gallery'
+import Gallery from '../../components/Gallery'
 import SectionText from '../../components/SectionText';
 //import SectionGallery from '../components/SectionGallery';
 
@@ -10,7 +10,7 @@ function WhiteCentrism() {
 
     /*image transition*/ 
     useEffect(() => {
-        // eslint-disable-next-line 
+        // eslint-disable-next-line  
         var image_animate = new hoverEffect({ 
           parent: document.querySelector('.img_box'),
           intensity: 0.7,
@@ -48,7 +48,7 @@ function WhiteCentrism() {
             </div>
         
 
-          {/* <Gallery/> */}
+          <Gallery />
 
           
           
@@ -57,14 +57,14 @@ function WhiteCentrism() {
         </m.div>
 
        
-            <div  className='main bg'>
+            {/* <div  className='main bg'>
               <img src='/images/01JeanBaptisteDebret1823.png' alt=''/>
               
             </div>
             <div className='main bg2'>
                 <img src='/images/01vogue2.png' alt='' />
             </div>
-        
+         */}
 
           
 

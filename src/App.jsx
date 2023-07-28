@@ -13,7 +13,8 @@ import ScrollToTop from './components/ScrollToTop';
 
 
 const App = (props, router) => (
-    <div className="App main-container"  data-scroll-container>
+   
+    <div className="App main-container">
         
         <BrowserRouter>
             <ScrollToTop />

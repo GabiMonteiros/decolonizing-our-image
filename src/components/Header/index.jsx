@@ -6,19 +6,19 @@ import './index.css'
 function  Header() {
  
   useEffect(()=>{
-    //header text animation
+    //header text animation, dividing in 2 divs
     const split = new SplitText('#header-text', {
       type: 'lines',
       linesClass: 'lineChildren',
     });
 
     /* eslint-disable */
-
     const splitParent = new SplitText('#header-text', {
       type: 'lines',
       linesClass: 'lineParent',
     });
 
+    /* doing the animation */
     gsap.to(split.lines,{
       duration: 1, 
       y: 0,

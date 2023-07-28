@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useRef} from 'react' //{useEffect, useRef} 
+import React, {useEffect, useState, useRef} from 'react'  
 import'./index.css'
 import SectionText from '../SectionText'
 import gsap from 'gsap'
@@ -29,15 +29,15 @@ function About() {
 
       gsap.to(split.lines,{
         duration: 1, 
-        y: -100,
-        opacity: 1,
+        y: -80,
+        opacity: 1, 
         stagger: 0.1,
-        ease: 'power2.out',
-    
+        ease: 'power4.out',
+     
       });
     
     }
-    
+     
   },[reveal])
 
   return (
@@ -45,7 +45,7 @@ function About() {
         {/* <section className={cn("about)-section",{'is-reveal': reveal})}  */}
 
       <section className={cn("about-section", {'is-reveal': reveal})}
-        data-scroll-section
+        
       >
         <SectionText title='Why decolonize?'/>
           <p  ref={ref} id="text-about"

@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import LocomotiveScroll from 'locomotive-scroll'
+import "locomotive-scroll/src/locomotive-scroll.scss";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -9,10 +10,11 @@ export default function useLocoScroll(start){
     //useEfect run when start parameter change
     useEffect(() =>{
         if (!start) return;
+        let locoScroll = null;
 
-        const scrollEl = document.querySelector('#main-container');
+        let scrollEl = document.querySelector('#main-container');
 // eslint-disable-next-line 
-        let locoScroll = new LocomotiveScroll({
+        locoScroll = new LocomotiveScroll({
             el: scrollEl,
             smooth: true,
             multiplier: 1,
@@ -27,7 +29,7 @@ export default function useLocoScroll(start){
                 if(locoScroll){
                     return arguments.length 
                     ? locoScroll.scrollTo(value, 0, 0)
-                    :locoScroll.scrollTo.instance.scroll.y;
+                    :locoScroll.scroll.instance.scroll.y;
                 }
                 return null;
             },
@@ -35,7 +37,7 @@ export default function useLocoScroll(start){
                 if(locoScroll){
                     return arguments.length 
                     ? locoScroll.scrollTo(value, 0, 0)
-                    :locoScroll.scrollTo.instance.scroll.x;
+                    :locoScroll.scroll.instance.scroll.x;
                 }
                 return null;
                 
@@ -55,9 +57,10 @@ export default function useLocoScroll(start){
             ScrollTrigger.removeEventListener('refresh', lsUpdate);
             locoScroll.destroy();
             locoScroll = null;
+            console.log("Kill", locoScroll);
             }
         }
 
-    }, [start])
+    }, [start]);
     
 }

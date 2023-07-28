@@ -19,11 +19,10 @@ h6{
 .featured-column-layout{
     display: grid;
     gap: 10px;
-}
+} 
 
 .featured-row-layout{
     grid-template-columns: repeat(2,auto);
-    /* grid-template-columns: ; */
    
 }
 

@@ -1,8 +1,10 @@
 import React from 'react'
 import Slide from 'react-reveal/Slide';
+import photos from '../../data';
 import './index.css'
 
 function index() {
+  const [firstImage, secondImage] = photos;
   return (
     <>
       <div className="featured-section"
@@ -11,13 +13,13 @@ function index() {
         <div className="featured-row-layout">
         <Slide bottom>
           <h6>Sara Batiman 1810</h6>
-          <img src="/images/SarahBaartman-APairofBroadBottoms-1810.jpg" alt="" />
+          <img src={firstImage} alt=''/>
         </Slide>  
         </div>
         <div className="featured-column-layout" >
         <Slide bottom>  
           <h6>A Redenção de Cam 1895</h6>
-          <img src="/images/RedencaodeCan1895-ModestoBrocos.jpg" alt="" />
+          <img src={secondImage} alt='' />
         </Slide> 
         </div>
       </div>
