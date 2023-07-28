@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
-import Gallery from '../components/Gallery'
+//import Gallery from '../components/Gallery'
 
 import SectionText from '../components/SectionText';
 
@@ -44,7 +44,7 @@ function NonWhiteServing() {
                 <div className="img_box"></div>
                 </div>
 
-                <Gallery/>
+                {/* <Gallery/> */}
 
             </m.div>
 

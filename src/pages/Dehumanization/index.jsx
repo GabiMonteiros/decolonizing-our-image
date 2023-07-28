@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
 import SectionText from '../../components/SectionText';
-import Gallery from '../../components/Gallery';
+//import Gallery from '../../components/Gallery';
 
 function Sexism() {
   useEffect(() => {
@@ -44,7 +44,7 @@ function Sexism() {
             <div className="img_box"></div>
           </div>
 
-          <Gallery/>
+          {/* <Gallery/> */}
         </m.div>
         <section className={"about-section"}>
           <SectionText title='Dehumanization as Entertainment'/>

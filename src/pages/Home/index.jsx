@@ -1,6 +1,5 @@
 import React from 'react';
 
-// import useLocoScroll from '../../hooks/useLocoScroll';
 import Header from '../../components/Header'
 import Featured from '../../components/Featured'
 import About from '../../components/About'
