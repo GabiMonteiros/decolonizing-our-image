@@ -14,7 +14,7 @@ const Gallery =(props ) =>{
         //blog-preview
         <div className="gallery-img" key={img.id}>
            
-          <img src={img.src} height={600} width={480} alt="" />
+          <img src={img.src} height={800} width={680} alt="" />
           <h1 className="gallery-info-title">{img.title}</h1>
           <h2 className="gallery-info-subtitle">{img.subtitle}</h2> 
         </div>

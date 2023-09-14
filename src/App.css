@@ -15,7 +15,7 @@ body{
 }
 
 .title h2{
-    font-size: 9rem;
+    font-size: 12rem;
     color: antiquewhite;
     font-family: 'Lato';
     font-weight:bolder;
@@ -27,11 +27,11 @@ body{
  
 
 .wc,
-.gis,
+
 .wai,
 .as{
     width: 100%;
-    margin-top: -100px;
+    margin-top: -280px;
     /* media qu 200px*/
     align-items: center;
     justify-content: center;
@@ -40,11 +40,11 @@ body{
     
 }
 
-
+.gis,
 .vwnwb,
 .deh{
     width: 100%;
-    margin-top: -280px;
+    margin-top: -500px;
     align-items: center;
     justify-content: center;
     display: flex;

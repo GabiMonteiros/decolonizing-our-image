@@ -32,17 +32,18 @@
 
 .gallery-img{
 
-    padding: 10px 16px;
-    margin: 40px 0;
+    padding: 10px 96px;
+    margin: 40px 0 0 0;
     cursor: pointer;
-    transition: 1s;
+   
+   
     /*width: 250px;
     cursor: pointer;
     /object-fit: cover; */
     /* transition: 1s; */
 }
 
-.card-img:hover{
+/* .card-img:hover{
     transform: scale(1.5);
     z-index: 2;
 }
@@ -52,16 +53,16 @@
     position: relative;
     will-change: transform;
     
-}
+} */
 
 
  
 .gallery-info-title{
-    margin-top: 45px 0 0 0;
-    line-height: 7vw; /* original 6 
+    margin-top: 10px 0 0 0;
+    line-height: 3vw; /* original 6 
     /* font-family: ???; */
     font-weight: 600;
-    font-size: 3.0vw;/* original 4 */
+    font-size: 2.5vw;/* original 4 */
     color: #e5e5e8;;
     
    
@@ -74,6 +75,6 @@
     margin: -15px 0 0 0;
     color: transparent;
     font-weight: 400;
-    font-size: 3.0vw;
+    font-size: 2.5vw;
     -webkit-text-stroke: 2px #e5e5e8; /*contorno qnd a tipo é transpa*/
 }

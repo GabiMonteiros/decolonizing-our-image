@@ -64,32 +64,15 @@ const WhiteCentrism = () =>{
 
             </section>
             
-              {/* <section className='section-wrapper gallery-wrap'> </section> */}
             <div className="image-container">
               <div className="img_box"></div>
             </div>
           
 
-            
-          
-          
-
-            
-          {/* <Gallery src="images/01vogue2.png" 
-            
-            title="Editorial to the new Gucci store in Copacabana"
-            subtitle="Vogue Brazil, 2019"/> */}
-
-            
-            
-            
-
           </m.div>
 
           <Gallery imgs={imgs}/>
-          
 
-    
           <section className={"about-section"}>
             <SectionText title='White Centrism'/>
               <p className="headline">
@@ -101,8 +84,8 @@ const WhiteCentrism = () =>{
           </section>
         </div> 
       </>
-    )
+      
+  )
     
 }
-
 export default WhiteCentrism

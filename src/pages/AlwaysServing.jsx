@@ -1,11 +1,29 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
-//import Gallery from '../components/Gallery'
+import Gallery from '../components/Gallery'
 
 import SectionText from '../components/SectionText';
 
 function NonWhiteServing() {
+  // eslint-disable-next-line  
+   const [imgs, setImgs ]= useState([
+        {
+            src: 'images/SenhoraEscravos1860.png' ,
+            title: 'A Brazilian Lady in her interior',
+            subtitle: 'Jean Baptiste Debret, 1823',
+            id: 5
+        },
+        {
+        
+            src: 'images/03doshow.png' ,
+            title: 'Editorial to the new Gucci store in Copacabana',
+            subtitle: 'Vogue Brazil, 2019',
+            id: 6
+        }
+    ]);  
+
+
     useEffect(() => {
         // eslint-disable-next-line 
         var image_animate = new hoverEffect({ 
@@ -41,12 +59,14 @@ function NonWhiteServing() {
                 
 
                 <div className="img_container"> 
-                <div className="img_box"></div>
+                    <div className="img_box"></div>
                 </div>
 
-                {/* <Gallery/> */}
+            
 
             </m.div>
+
+            <Gallery imgs={imgs}/>
 
             <section className={"about-section"}>
             <SectionText title='White Centrism'/>

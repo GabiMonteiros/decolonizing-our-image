@@ -1,10 +1,28 @@
-import React, {useEffect} from 'react';
+import React, {useEffect,useState} from 'react';
 import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
 import SectionText from '../../components/SectionText';
-//import Gallery from '../../components/Gallery';
+import Gallery from '../../components/Gallery';
 
 function Sexism() {
+  // eslint-disable-next-line 
+  const [imgs, setImgs ]= useState([
+    {
+      src: 'images/Museum-Treptow-HumanZoo-1896.png' ,
+      title: 'A Brazilian Lady in her interior',
+      subtitle: 'Jean Baptiste Debret, 1823',
+      id: 7
+    },
+    {
+      
+      src: 'images/posterHumanZoo.png' ,
+      title: 'Editorial to the new Gucci store in Copacabana',
+      subtitle: 'Vogue Brazil, 2019',
+      id: 8
+    }
+    
+  ]); 
+
   useEffect(() => {
     // eslint-disable-next-line 
     var image_animate = new hoverEffect({ 
@@ -44,8 +62,11 @@ function Sexism() {
             <div className="img_box"></div>
           </div>
 
-          {/* <Gallery/> */}
+        
         </m.div>
+
+        <Gallery imgs={imgs}/>
+
         <section className={"about-section"}>
           <SectionText title='Dehumanization as Entertainment'/>
           <p className="headline">

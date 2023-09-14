@@ -1,9 +1,29 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
 import SectionText from '../components/SectionText';
+import Gallery from '../components/Gallery';
 
 function ViolenceNonWhiteBodies() {
+  // eslint-disable-next-line  
+  const [imgs, setImgs ]= useState([
+    {
+      id: 3,
+      src: 'images/policia-criancasnegras2.png' ,
+      title: 'A Brazilian Lady in her interior',
+      subtitle: 'Jean Baptiste Debret, 1823',
+      
+    },
+    {
+      
+      id: 4,
+      src: 'images/02AcoiteJeanBaptisteDebret1834-1839.png' ,
+      title: 'Editorial to the new Gucci store in Copacabana',
+      subtitle: 'Vogue Brazil, 2019',
+    }
+    
+  ]);  
+
 
   useEffect(() => {
     // eslint-disable-next-line 
@@ -36,12 +56,13 @@ function ViolenceNonWhiteBodies() {
             > Violence Against <br></br> Black Bodies
             </m.h2>
           </section>
-          
-
+   
           <div className="img_container"> 
             <div className="img_box"></div>
           </div>
         </m.div>
+
+        <Gallery imgs={imgs}/>
         <section className={"about-section"}>
           <SectionText title='Violence Againts Black Bodies'/>
             <p className="headline">
