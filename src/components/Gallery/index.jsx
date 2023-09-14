@@ -1,33 +1,39 @@
 // eslint-disable-next-line
 import React, { useEfect } from 'react';
 import './index.css';
-//import images from './../../dataGallery';
 
-export const Gallery = ({
-    src,
-    id,
-    subtitle
-}) => {
+
+const Gallery =(props ) =>{
+  const imgs = props.imgs
+  console.log(props,imgs)
 
   return (
-    <div className='card-container'>
-        <div className="card-img">
-            <img src="/images/01vogue2.png" height={600} width={480} alt="" />
-        </div>
+    <div className='gallery-container'>
+      {imgs.map((img)=>(
         
-        <div className="gallery-item-info">
-            <h1 className="gallery-info-title">Editorial to the new Gucci store in Copacabana</h1>
-            <h2 className="gallery-info-subtitle">Vogue Brazil, 2019</h2>
+        <div className="gallery-img" key={img.id}>
+           
+          <img src={img.src} height={600} width={480} alt="" />
+          <h1 className="gallery-info-title">{img.title}</h1>
+          <h2 className="gallery-info-subtitle">{img.subtitle}</h2> 
         </div>
 
+       
+      ))}
+       
+       {/* <div className="gallery-img">
+           
+        <img src={props.src}  height={600} width={480}  alt="" />
+          
+      </div>
 
-      {/* {images.map((id)=>(
-        <div className="family-item">
-            <div className="family-item-image" style= {{backgroundImage: `id(${id})`}}>
-
-            </div>
-        </div>
-      ))} */}
+      <div className="gallery-item-info">
+        {/* <h1 className="gallery-info-title">{props.title}</h1>
+        <h2 className="gallery-info-subtitle">{props.subtitle}</h2> 
+      </div> */}
+      
+     
+      
     </div>
   )
 }

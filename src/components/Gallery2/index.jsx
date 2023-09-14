@@ -4,7 +4,7 @@ import {gsap, ScrollTrigger} from "gsap/all";
 import useOnScreen from "../../hooks/useOnScreen";
 import cn from "classnames"
 //import images from '../../dataGallery';
-import './index.css';
+import './index.css'; 
 
 //array of images  - 18.30min no Web Unlocked
 
