@@ -8,9 +8,10 @@ const Gallery =(props ) =>{
   console.log(props,imgs)
 
   return (
-    <div className='gallery-container'>
+    //home
+    <div className='gallery-container'> 
       {imgs.map((img)=>(
-        
+        //blog-preview
         <div className="gallery-img" key={img.id}>
            
           <img src={img.src} height={600} width={480} alt="" />

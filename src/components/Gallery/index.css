@@ -31,10 +31,15 @@
 
 
 .gallery-img{
-    width: 250px;
+
+    padding: 10px 16px;
+    margin: 40px 0;
     cursor: pointer;
-    object-fit: cover;
     transition: 1s;
+    /*width: 250px;
+    cursor: pointer;
+    /object-fit: cover; */
+    /* transition: 1s; */
 }
 
 .card-img:hover{
