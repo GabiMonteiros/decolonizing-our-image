@@ -3,12 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 50px 20px 0 70px;
+    padding: 50px 100px 0 30px;
     font-size: 25px;
     font-family: 'Syncopate', sans-serif;
     color: rgb(227, 191, 147);
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: uppercase; 
     z-index: 999;
     position: sticky;
     top: 0px;

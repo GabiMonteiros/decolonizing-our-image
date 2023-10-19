@@ -30,8 +30,8 @@ img:hover{
  
 .gallery-info-title{
     margin-top: 5px 0 0 0;
-    line-height: 3vw; /* original 6 
-    /* font-family: ???; */
+    line-height: 3vw; /* original 6 */
+    font-family: Arges, sans-serif;
     /* font-weight: 600; */
     font-size: 2.4vw;/* original 4 */
     color: #e5e5e8;;
@@ -42,7 +42,7 @@ img:hover{
 .gallery-info-subtitle{
     /* position: relative; */
     line-height: 1vw;  /* original 6 */
-    /* font-family: ???; */
+    font-family: Arges, sans-serif;
     margin: -15px 0 0 0;
     color: transparent;
     font-weight: 400;

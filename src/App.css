@@ -52,32 +52,33 @@ body{
 }
 
 
-
+/* 1 whitw centrism*/
 .wc{
-    background: linear-gradient(to top,  #0de9e2, #2cec3c);
-
-}
-
-.deh{
-    background: linear-gradient(to top, #ff5a18, #8E2DE2) ;
-    
-}
-
-
-.wai{
-    background: linear-gradient(to top,#f260a4 , #af7a06) ;
-}
-
-.vwnwb{
+    /* background: linear-gradient(to top,  #0de9e2, #2cec3c); */
     background: linear-gradient(to top, #8E2DE2, #0de9e2);
+
+}
+/* 2 violence*/
+.vwnwb{
+    background: linear-gradient(to top, #ff5a18, #8E2DE2) ;
    
 }
-.gis{
-    background: linear-gradient(to top, #af7a06, #ff5a18) ;
+/*3 dehumanization*/
+.deh{
+    background: linear-gradient(to top,#f7b733, #ff5a18);
+    
 }
-
+/* 4always serving*/
 .as{
-    background: linear-gradient(to top,#633de9 , #0ca9ec)
+    background: linear-gradient(to top,#7a1ee3, #f29427);
+}
+/*5  google*/
+.gis{
+    background: linear-gradient(to top, #16b8e6, #7a1ee3) ;
+}
+/*how am i*/
+.wai{
+    background: linear-gradient(to top,#ffc3a0 , #d8687b) ;
 }
 
 .image-container{

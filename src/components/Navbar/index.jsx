@@ -7,7 +7,6 @@ import SideBarData from '../SideBarData'
 import './index.css'
 import { IconContext } from 'react-icons';
 
-// import { IconContext } from 'react-icons CgMenuHotdog';
 
 
 
@@ -28,7 +27,7 @@ function Navbar() {
                         <Link
                             
                            className="menu-bars"     
-                        >
+                        > 
                             <CgIcons.CgMenuHotdog onClick={showSidebar} />
                          
                         </Link> 
@@ -77,9 +76,12 @@ function Navbar() {
                         </Link>    
 
                     </div>
+
+                    
  
                 </div> 
-                            
+
+                
             </IconContext.Provider>
         </>
     );

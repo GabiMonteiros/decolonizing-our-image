@@ -3,6 +3,7 @@ import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
 import Gallery from '../../components/Gallery'
 import SectionText from '../../components/SectionText';
+import Carousel from '../../components/Carousel';
 //import SectionGallery from '../components/SectionGallery';
 
 
@@ -83,6 +84,8 @@ const WhiteCentrism = () =>{
               </p>
           </section>
         </div> 
+
+        <Carousel></Carousel>
       </>
       
   )
