@@ -35,35 +35,35 @@
 }
 
 
-.wrapper .carousel{
+.wrapper .carouselus{
     white-space: nowrap;
     font-size: 0px;
     cursor: pointer;
     overflow: hidden;/*o que faz aparecer so 3 imagens*/
 }
 
-.carousel img{
+.carouselus img{
     height: 340px;
     object-fit: cover;
     margin-left: 14px;
     width: calc(100% / 3);
 }
 
-.carousel img:first-child{
+.carouselus img:first-child{
     margin-left: 0px;
 
 }
 
 
 @media screen and (max-width: 900px){
-    .carousel img{
+    .carouselus img{
         width: calc(100% / 2);
     }
     
 }
 
 @media screen and (max-width: 550px){
-    .carousel img{
+    .carouselus img{
         width: 100%;
     }
     
