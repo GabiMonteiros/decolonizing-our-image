@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Content from './setup/Content';
 import ScrollToTop from './components/ScrollToTop';
 
+
 // import Footer from '../component/Footer';
 
 
@@ -22,6 +23,7 @@ const App = (props, router) => (
             <AnimatePresence >
                 <Content key={router.pathname} {...props}/>
             </AnimatePresence>
+            
             
             {/* 
             
