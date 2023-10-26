@@ -19,7 +19,7 @@ function  Header() {
     });
 
     /* doing the animation */
-    gsap.to(split.lines,{
+    gsap.to(split.lines,{ 
       duration: 1, 
       y: 0,
       opacity: 1,
