@@ -29,7 +29,7 @@ function Sexism() {
       parent: document.querySelector('.img_box'),
       intensity: 0.7,
       image1: '/images/Museum-Treptow-HumanZoo-1896.png' ,
-      image2:'/images/posterHumanZoo.png',
+      image2:'/images/posterHumanZoo-transicao.png',
       displacementImage: '/images/heightMap.png'
         
     })

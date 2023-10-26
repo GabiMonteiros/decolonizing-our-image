@@ -30,8 +30,8 @@ function ViolenceNonWhiteBodies() {
     var image_animate = new hoverEffect({ 
       parent: document.querySelector('.img_box'),
       intensity: 0.7, 
-      image1: '/images/02AcoiteJeanBaptisteDebret1834-1839.png' ,
-      image2:'/images/policia-criancasnegras2.png',
+      image1: '/images/AcoiteJeanBaptisteDebret-transicao.png' ,
+      image2:'/images/policia-criancasnegras-transicao.png',
       displacementImage: '/images/dot.jpg'
         
     })

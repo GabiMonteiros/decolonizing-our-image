@@ -10,15 +10,15 @@ function Carouselus() {
 
     const responsive = {
         superLargeDesktop: {
-        breakpoint: { max: 4000, min: 3000 },
-            items: 5
+        breakpoint: { max: 4000, min: 1024 },
+            items: 3
         },
         desktop: {
-          breakpoint: { max: 2000, min: 1024 },
+          breakpoint: { max: 1024, min: 764 },
           items: 3
         },
         tablet: {
-          breakpoint: { max: 1024, min: 464 },
+          breakpoint: { max: 764, min: 464 },
           items: 2
         },
         mobile: {
@@ -32,16 +32,7 @@ function Carouselus() {
         <>
 
             <Carousel 
-    //             {/* <div className="wrapper">
-    //                 <div className="carouselus"> 
-    //                     <img src="images/01JeanBaptisteDebret1823.png" alt="Debret Painting" /> 
-    //                     <img src="images/posterHumanZoo.png" alt="" />
-    //                     <img src="images/policia-criancasnegras2.png" alt="" />
-                        
-    //                     <img src="images/SenhoraEscravos1860.png" alt="" />
-    //                 </div>
-
-    // </div> */}
+  
                 swipeable={false}
                 draggable={false}
                 
@@ -56,13 +47,12 @@ function Carouselus() {
                 removeArrowOnDeviceType={["tablet", "mobile"]}
                
                 itemClass="carousel-item-padding-5-px"
-                centerMode={true} 
+                
                 // afterChange={(previousSlide, { currentSlide, onMove }) => {
                 //     doSpeicalThing();
                 //   }}
                 // como usaaaaar???
                 >
-
 
                 <div className="card">
                     <img className="topic-image" src="images/01JeanBaptisteDebret1823.png" alt="Debret Painting" /> 

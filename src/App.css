@@ -103,3 +103,70 @@ body{
 .section{
     padding: 100px 0;
 }
+
+/*////////////////////////////////////*/
+@media screen and (max-width: 1200px){
+
+    .img_box{
+    
+        /* min-width: 100%;
+        align-items: center;
+        width: 450px; 
+        height: 851px;
+        padding-left: 80px; */
+        align-items: center;
+        padding: 0 95px;
+        
+    }
+    .image-container{
+        flex-direction: column;
+        align-content: center;
+        padding-bottom: 100px;
+        min-width: 1000px;
+        
+        margin: 0 120px 0 90px;
+        
+        
+    }
+
+   
+    
+}
+
+@media screen and (max-width: 950px){
+    .img_box{
+    
+    
+        min-width: 100%;
+        align-items: center;
+        padding: 30px;
+        height: 400px;
+        width: 450px;
+        
+        
+    }
+
+    
+   
+    
+} 
+
+@media screen and (max-width: 550px){
+    .img_box{
+    
+    
+        min-width: 80%;
+        align-items: center;
+        /* padding: 0 15px 0 10px; */
+        
+        
+        
+    }
+    
+    img{
+        width: 450px;
+        height: 400px;
+        object-fit: cover;
+    }
+    
+} 
