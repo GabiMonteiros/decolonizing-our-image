@@ -65,7 +65,7 @@ const WhiteCentrism = () =>{
 
             </section>
             
-            <div className="image-container">
+            <div className="img_container">
               <div className="img_box"></div>
             </div>
           
