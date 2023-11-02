@@ -6,13 +6,14 @@
     
 }   
  
+ 
 
 
 #text-container{
-    height: 120vh;
+    height: 110vh;
     background: linear-gradient(to top,  #0de9e2, #2cec3c);
     padding: 0;
-}
+} 
 
 
 #header-text{
@@ -33,3 +34,36 @@
 .lineChildren{ /*animation*/
     transform: translate(0, 500px);
 }
+
+@media screen and (max-width: 810px){
+    
+    
+    #text-container{
+        height: 70vh;
+       
+    }
+    #header-text{
+        padding-top: 320px;
+           
+    }
+    
+    
+    
+} 
+
+
+@media screen and (max-width: 550px){
+
+    #text-container{
+        height: 60vh;
+        
+       
+    }
+    #header-text{
+        padding-top: 220px;
+           
+    }
+    
+    
+   
+} 

@@ -7,32 +7,33 @@ body{
     background-color: rgb(244, 237, 227);
 }
 
-.title{
+.title{ /* 'header-text'*/
     height: 120hv;
-    /* display: flex; */
     padding: 0;
-    /* padding-bottom: 200px; */
 }
 
 .title h2{
-    font-size: 12rem;
-    color: antiquewhite;
-    font-family: 'Lato';
-    font-weight:bolder;
+    font-size: 12vw;
+    text-transform: uppercase;
     text-align: center;
-    margin-bottom: 800px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: rgb(47, 45, 41);
+    margin-top: -220px;
+    margin-bottom: 900px;
+    padding-top: 68px;
+    color: antiquewhite;
 
 }
 
  
 
 .wc,
-
+.gis,
 .wai,
 .as{
     width: 100%;
     margin-top: -280px;
-    /* media qu 200px*/
     align-items: center;
     justify-content: center;
     display: flex;
@@ -40,11 +41,11 @@ body{
     
 }
 
-.gis,
+
 .vwnwb,
 .deh{
     width: 100%;
-    margin-top: -500px;
+    margin-top: -550px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -137,22 +138,39 @@ body{
 }
 
 @media screen and (max-width: 810px){
-    
-    .img_box img{
-        object-fit: cover;
-        
-    }
-
-    
+ 
     .img_box{
-    
-    
         min-width: 100%;
         align-items: center;
         padding: 0;
-    
     }
     
+   
+   
+    .title h2{
+       
+        margin-top: 38px ; /*105px*/
+        margin-bottom: 800px;
+        padding-top: 68px;
+       
+    
+    }
+
+    .wc,
+    .gis,
+    .wai,
+    .as{
+        margin-top: -200px;
+   
+    }
+
+    .vwnwb,
+    .deh{
+        margin-top: -255px;
+
+    }
+    
+   
     
     
 } 
@@ -163,7 +181,6 @@ body{
     img{
         /* width: 250px;
         height: 480px; */
-        object-fit: cover;
         padding: 10px;
     }
 
@@ -171,10 +188,19 @@ body{
         padding-bottom: 20px;
        
     }
+    .title h2{ 
+        margin-top: 80px ; /*105px*/
+        /* margin-bottom: 425px; */
 
-    .img_box{
-       min-width: 80%;
-    
+
+
+
     }
-    
+
+    .title{ /* 'header-text'*/
+        height: 80hv;
+       
+    }
+
+   
 } 

@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 50px 100px 0 30px;
+    padding: 50px 480px 0 32px;  /* 50px 0 0 54px; // 50px 189px 0 32px*/
     font-size: 25px;
     font-family: 'Syncopate', sans-serif;
     color: rgb(227, 191, 147);
@@ -14,13 +14,14 @@
     top: 0px;
     margin: 0 10px 0 10px;
     text-decoration: none;
+ 
 
-    
+     
 
 }
 
 .menu-bars{
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     margin-top: -12px;
     background: none;
     font-size: 45px;
@@ -72,7 +73,9 @@
     color: aliceblue;
 }
 
-
+/* .navbar-logo{
+    / /
+} */
 .nav-text a{
     text-decoration: none;
     color: #e3be92;
@@ -118,3 +121,38 @@
 
 }
 
+
+@media screen and (max-width: 1220px){
+    .navbar{
+        font-size: 21px;
+    }
+
+}
+
+@media screen and (max-width: 960px){
+    .navbar{
+        font-size: 21px;
+    }
+
+
+    .menu-bars{
+        font-size: 38px;
+    }
+
+}
+
+@media screen and (max-width: 810px){
+    .navbar{
+        font-size: 18px;
+        padding: 50px 218px 0 32px;
+    }
+
+
+    .menu-bars{
+        font-size: 36px;
+        /* margin-top: 5px; */
+    }
+
+}
+
+/*padding:  50px 180px 0 32px; */

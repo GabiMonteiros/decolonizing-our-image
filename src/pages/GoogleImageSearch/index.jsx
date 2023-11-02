@@ -21,7 +21,7 @@ function GoogleImageSearch() {
               animate={{ y: "100%" }}
               transition={{ delay:0.7, duration: 0.80}}
             >
-              Google Image Search
+              Google <br></br>Image Search
             </m.h2>
           </section>
           

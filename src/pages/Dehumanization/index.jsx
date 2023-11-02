@@ -37,7 +37,7 @@ function Sexism() {
 
   return (
     <>
-      <div className="pages-container" data-scroll-section>
+      <div className="pages-container" >
 
         <m.div 
           initial={{y: "100%" }}
@@ -53,7 +53,8 @@ function Sexism() {
               animate={{ y: "100%" }}
               transition={{ delay:0.7, duration: 0.80}}
             > 
-              Dehumanization as Entertainment
+              Dehumanizing as entertainment 
+              {/* Dehumanization  as   Entertainment */}
             </m.h2>
           </section>
         

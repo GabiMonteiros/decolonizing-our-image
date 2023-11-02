@@ -7,7 +7,7 @@ import SideBarData from '../SideBarData'
 import './index.css'
 import { IconContext } from 'react-icons';
 
-
+ 
 
 
 
@@ -22,7 +22,7 @@ function Navbar() {
   return (
         <>
             <IconContext.Provider value={{color: '#e3be92'}}>
-                <div className="navbar" data-scroll-section >
+                <div className="navbar">
                     {/* navbar */}
                         <Link
                             
@@ -65,7 +65,7 @@ function Navbar() {
                         </Link>    
                     </div>
 
-                    <div className="nav-item">
+                    {/* <div className="nav-item">
                                     
                         <Link
                             to="/who-am-I"
@@ -75,7 +75,7 @@ function Navbar() {
                             Who Am I?
                         </Link>    
 
-                    </div>
+                    </div> */}
 
                     
  

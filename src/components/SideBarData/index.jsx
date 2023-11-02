@@ -19,7 +19,7 @@ export const SidebarData = [
     {
         title: 'Dehumanization as Entertainment',
         path: '/dehumanization',
-        clName: 'nav-text',
+        clName: 'nav-text', 
     },
     {
         title: 'Always Serving',

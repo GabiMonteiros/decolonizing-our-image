@@ -40,7 +40,7 @@ function ViolenceNonWhiteBodies() {
 
   return (
     <>
-      <div className="pages-container" data-scroll-section>
+      <div className="pages-container">
         <m.div 
           initial={{y: "100%" }}
           animate={{ y: "0%" }}
@@ -48,7 +48,7 @@ function ViolenceNonWhiteBodies() {
           exit={{opacity: 1 }}
         >
           
-          <section className="title vwnwb" data-scroll-section>
+          <section className="title vwnwb">
             <m.h2
               initial={{y: 0 }}
               animate={{ y: "100%" }}

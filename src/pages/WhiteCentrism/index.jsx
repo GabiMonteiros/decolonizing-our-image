@@ -47,10 +47,10 @@ const WhiteCentrism = () =>{
       <> 
       
       
-        <div className="pages-container" data-scroll-section>
+        <div className="pages-container" >
           <m.div 
             initial={{y: "100%" }}
-            animate={{ y: "0%" }}
+            animate={{ y: "0%" }} 
             transition={{duration:0.75, ease: 'easeOut'}} 
             exit={{opacity: 1 }}
           >

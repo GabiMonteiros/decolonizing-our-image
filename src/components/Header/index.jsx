@@ -26,7 +26,7 @@ function  Header() {
       stagger: 0.1,
       ease: 'power2',
   
-    });
+    }); 
   
   },[])
 
@@ -34,7 +34,7 @@ function  Header() {
 
   return (
     <>
-      <section className='header-container' data-scroll-section>
+      <section className='header-container'>
 
       <div id='text-container'>
         <h1 id='header-text'> 
