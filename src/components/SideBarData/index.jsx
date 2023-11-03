@@ -31,6 +31,13 @@ export const SidebarData = [
         path: '/google-image-search',
         clName:'nav-text',
     },
+    {
+        title: 'Who Am I?',
+        path: '/who-am-I',
+        clName:'nav-text',
+    },
+
+
 ]
 
 export default SidebarData

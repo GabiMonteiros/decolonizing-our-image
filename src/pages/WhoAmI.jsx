@@ -21,7 +21,7 @@ function WhoAmI(){
               animate={{ y: "100%" }}
               transition={{ delay:0.7, duration: 0.80}}
             >
-             <br></br>Who Am I?
+             Who<br></br> Am I?
             </m.h2>
 
           </section>

@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 50px 480px 0 32px;  /* 50px 0 0 54px; // 50px 189px 0 32px*/
+    padding: 50px 600px 0 25px; /* 50px 0 0 54px; // 50px 189px 0 32px*/
     font-size: 25px;
     font-family: 'Syncopate', sans-serif;
     color: rgb(227, 191, 147);
@@ -121,17 +121,11 @@
 
 }
 
-
-@media screen and (max-width: 1220px){
+@media screen and (max-width: 1422px){
     .navbar{
         font-size: 21px;
-    }
+        padding: 50px 510px 120px 25px;
 
-}
-
-@media screen and (max-width: 960px){
-    .navbar{
-        font-size: 21px;
     }
 
 
@@ -141,18 +135,71 @@
 
 }
 
-@media screen and (max-width: 810px){
+@media screen and (max-width: 1220px){
     .navbar{
-        font-size: 18px;
-        padding: 50px 218px 0 32px;
+        
+        padding: 50px 398px 140px 25px;
+    }
+
+}
+@media screen and (max-width: 810px){
+ 
+
+    .navbar{
+        padding: 50px 198px 0 25px;
     }
 
 
     .menu-bars{
         font-size: 36px;
         /* margin-top: 5px; */
+
     }
 
 }
 
-/*padding:  50px 180px 0 32px; */
+@media screen and (max-width: 428px){
+    .navbar{
+        font-size: 17px;
+        padding: 50px 28px 0px 11px;
+
+    }
+
+
+    .menu-bars{
+        font-size: 33px;
+    }
+
+}
+
+@media screen and (max-width: 384px){
+
+    .nav-item{
+        font-size: 15px;
+      
+    }
+
+    
+
+   
+} 
+
+
+
+@media screen and (max-width: 375px){
+
+    
+  
+
+    .nav-item{
+        font-size: 14px;
+        padding: 50px -1px 0px 0px;
+    }
+
+    .menu-bars{
+        font-size: 32px;
+      
+    }
+
+   
+} 
