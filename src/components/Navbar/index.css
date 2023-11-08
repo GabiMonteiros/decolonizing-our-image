@@ -5,21 +5,26 @@
     align-content: center;
     padding: 50px 600px 0 25px; /* 50px 0 0 54px; // 50px 189px 0 32px*/
     font-size: 25px;
+    /* font-size: 21px;
+    padding: 50px 510px 100px 25px; */
     font-family: 'Syncopate', sans-serif;
     color: rgb(227, 191, 147);
     font-weight: 700;
     text-transform: uppercase; 
     z-index: 999;
-    position: sticky;
+    position: sticky; 
     top: 0px;
     margin: 0 10px 0 10px;
     text-decoration: none;
- 
-
-     
 
 }
 
+.nav-item{
+    position: absolute;
+    width: 470px;
+    height: 50px;
+    left: 37%;
+}
 .menu-bars{
     /* margin-left: 2rem; */
     margin-top: -12px;
@@ -120,52 +125,40 @@
 }
 
 @media screen and (max-width: 1422px){
-    .navbar{
-        font-size: 21px;
-        padding: 50px 510px 120px 25px;
-
+   
+    .nav-item{
+        left: 32%;
     }
-
-
-    .menu-bars{
-        font-size: 38px;
-    }
-
 }
 
-@media screen and (max-width: 1220px){
-    .navbar{
-        
-        padding: 50px 398px 140px 25px;
-    }
-
-}
 @media screen and (max-width: 810px){
- 
 
-    .navbar{
-        padding: 50px 198px 0 25px;
+    .nav-item{
+        left: 25%;
+        font-size: 22px;
     }
-
-
+   
     .menu-bars{
         font-size: 36px;
         /* margin-top: 5px; */
+        margin-top: -8px;
 
     }
 
 }
 
 @media screen and (max-width: 428px){
-    .navbar{
-        font-size: 17px;
-        padding: 50px 28px 0px 11px;
+  
 
+    .nav-item{
+        left: 20%;
+        font-size: 14px;
     }
 
 
     .menu-bars{
         font-size: 33px;
+        margin-top: -10px;
     }
 
 
@@ -192,32 +185,26 @@
 @media screen and (max-width: 390px){
 
     .nav-item{
-        font-size: 15px;
-      
+        left: 18%;
     }
-
-    
-
-   
 } 
 
 
 
 @media screen and (max-width: 375px){
 
-    
-  
-
     .nav-item{
         font-size: 14px;
-        padding: 50px -1px 0px 0px;
+        /* padding: 50px -1px 0px 0px; */
+        left: 16%;
+  
     }
 
     .menu-bars{
-        font-size: 32px;
+        margin-top: -8px;
+        font-size: 30px;
       
     }
-
    
 } 
 

@@ -9,7 +9,7 @@ function index() {
     <>
       <div className="featured-section"
         data-scroll-section
-      >
+      > 
         <div className="featured-row-layout">
         <Slide bottom>
           <h6>Sara Batiman 1810</h6>

@@ -3,18 +3,19 @@
 .header-container{ 
     background-color: transparent;
     position: relative;
+    top: -60px;
     
-}   
+}    
  
 
 
 #text-container{
     height: 110vh;
     background: linear-gradient(to top,  #0de9e2, #2cec3c);
-    padding: 0;
+    /* padding: 0; */
 }
 
-
+ 
 #header-text{
     font-size: 12vw;
     text-transform: uppercase;
@@ -59,7 +60,7 @@
        
     }
     #header-text{
-        padding-top: 220px;
+        padding-top: 246px;
            
     }
     

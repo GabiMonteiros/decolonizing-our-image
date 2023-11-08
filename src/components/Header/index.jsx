@@ -4,7 +4,7 @@ import SplitText from '../../utils/Split3.min.js';
 import './index.css'
 
 function  Header() {
- 
+  
   useEffect(()=>{
     //header text animation, dividing in 2 divs
     const split = new SplitText('#header-text', {
@@ -19,7 +19,7 @@ function  Header() {
     });
 
     /* doing the animation */
-    gsap.to(split.lines,{ 
+    gsap.to(split.lines,{  
       duration: 1, 
       y: 0,
       opacity: 1,
