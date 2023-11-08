@@ -23,7 +23,7 @@
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: rgb(47, 45, 41);
-    margin-top: -190px;
+    margin-top: -120px;
     padding-top: 280px;
        
 }
@@ -35,6 +35,8 @@
     transform: translate(0, 500px);
 }
 
+
+
 @media screen and (max-width: 810px){
     
     
@@ -43,11 +45,14 @@
        
     }
     #header-text{
-        padding-top: 320px;
+        padding-top: 198px;
            
     }
     
-    
+    .header-container{
+        top: -110px
+    }
+        
     
 } 
 
@@ -62,6 +67,10 @@
     #header-text{
         padding-top: 246px;
            
+    }
+
+    .header-container{
+        top: -190px
     }
     
     
