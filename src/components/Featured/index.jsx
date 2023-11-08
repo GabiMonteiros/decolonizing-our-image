@@ -8,7 +8,6 @@ function index() {
   return (
     <>
       <div className="featured-section"
-        data-scroll-section
       > 
         <div className="featured-row-layout">
         <Slide bottom>

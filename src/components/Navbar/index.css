@@ -129,6 +129,11 @@
     .nav-item{
         left: 34%;
     }
+/* 
+    .navbar{
+        
+        padding: 50px 398px 140px 25px;
+    } */
 }
 
 @media screen and (max-width: 810px){
@@ -151,8 +156,8 @@
   
 
     .nav-item{
-        left: 20%;
-        font-size: 14px;
+        left: 11%;
+        font-size: 16px;
     }
 
 
@@ -182,22 +187,12 @@
     }
 }
 
-@media screen and (max-width: 390px){
-
-    .nav-item{
-        left: 18%;
-    }
-} 
-
 
 
 @media screen and (max-width: 375px){
 
     .nav-item{
         font-size: 14px;
-        /* padding: 50px -1px 0px 0px; */
-        left: 16%;
-  
     }
 
     .menu-bars{

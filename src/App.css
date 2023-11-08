@@ -34,7 +34,7 @@ body{
 .wai,
 .as{
     width: 100%;
-    margin-top: -380px;
+    margin-top: -250px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -46,7 +46,7 @@ body{
 .vwnwb,
 .deh{
     width: 100%;
-    margin-top: -650px;
+    margin-top: -500px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -115,12 +115,12 @@ body{
     .gis,
     .wai,
     .as{
-        margin-top: -255px;
+        margin-top: -215px;
     }
 
     .vwnwb,
     .deh{
-        margin-top: -490px;
+        margin-top: -420px;
 
     }
     
@@ -183,12 +183,12 @@ body{
     .gis,
     .wai,
     .as{
-        margin-top: -428px;
+        margin-top: -310px;
     }
 
     .vwnwb,
     .deh{
-        margin-top: -550px;
+        margin-top: -420px;
 
     }
     
@@ -197,7 +197,7 @@ body{
     
 } 
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 428px){
 
     
     img{
@@ -220,12 +220,12 @@ body{
     .gis,
     .wai,
     .as{
-        margin-top: -388px;
+        margin-top: -215px;
     }
 
     .vwnwb,
     .deh{
-        margin-top: -440px;
+        margin-top: -275px;
 
     }
     
