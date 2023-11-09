@@ -7,7 +7,7 @@ import SplitText from '../../utils/Split3.min.js'
 import useOnScreen from '../../hooks/useOnScreen'
 
 function About() {
-  
+   
 
   const ref = useRef(null);
 

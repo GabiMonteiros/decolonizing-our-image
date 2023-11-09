@@ -13,13 +13,10 @@ h6{
     font-weight: 600;
 }
 
-.featured-row-layout{
-    background-color: red;
-}
 
-.featured-column-layout{
+/* .featured-column-layout{
     background-color: yellow;
-}
+} */
 
 .featured-section,
 .featured-row-layout,
@@ -127,7 +124,7 @@ h6{
 
 @media screen and (max-width: 428px){
     .featured-section{
-        padding: 45vw 0vw 5vw 0vw;
+        padding: 25vw 0vw 10vw 0vw
     }
 
     .featured-row-layout img{
@@ -150,9 +147,14 @@ h6{
     }
 
     .featured-row-layout h6{
-        margin:15px 0 0 18px;
-        color: #fff;
+        margin:425px 0 0 77px;
+       
 
+    }
+
+    .featured-column-layout h6{
+        margin: 0px 0px 6px 50px;
+    
     }
    
 }
