@@ -12,14 +12,15 @@ function index() {
       > 
         <div className="featured-row-layout">
         <Slide bottom>
-          <h6>Sara Batiman 1810</h6>
           <img src={firstImage} alt=''/>
+          <h6>Sara Batiman 1810</h6>
         </Slide>  
         </div>
         <div className="featured-column-layout" >
         <Slide bottom>  
-          <h6>A Redenção de Cam 1895</h6>
+          
           <img src={secondImage} alt='' />
+          <h6>A Redenção de Cam 1895</h6>
         </Slide> 
         </div>
       </div>
