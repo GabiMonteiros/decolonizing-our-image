@@ -1,7 +1,8 @@
 
 .about-section{
-    padding: 0 3vw 0 5vw;
-    
+    padding: 2px 1vw 0px 5vw;
+    background-color: yellow;
+    height: auto;
  
 }
  
@@ -9,8 +10,8 @@
     font-size: 20px; /*70px*/
     line-height: 1.4;
     /* opacity: 0; */ 
-    background-color: yellow;
-    
+   
+ 
 
 }
 

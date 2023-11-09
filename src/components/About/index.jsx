@@ -37,7 +37,7 @@ function About() {
       });
     
     }
-     
+      
   },[reveal])
 
   return (
