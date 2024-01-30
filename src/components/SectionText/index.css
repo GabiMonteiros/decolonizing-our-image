@@ -4,7 +4,24 @@
     letter-spacing: 1;
     font-family: 'Syncopate', sand-serif;
     color: rgb(227, 191, 147); 
-    padding-bottom: 10vw; 
+    padding-bottom: 5vw; 
     
 }  
 
+
+@media screen and (max-width: 810px){
+
+    .section-text{
+        
+        padding-bottom: 10vw;   
+    } 
+}
+
+@media screen and (max-width: 455px){
+
+
+    .section-text{
+        
+        padding-bottom: 15vw;   
+    } 
+}

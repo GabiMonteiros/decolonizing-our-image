@@ -10,7 +10,7 @@ export const SidebarData = [
         title: 'Whitecentrism',
         path: '/white-centrism',
         clName: 'nav-text',
-    },
+    }, 
     {
         title: 'Violence against black Bodies',
         path: '/violence-black-bodies',

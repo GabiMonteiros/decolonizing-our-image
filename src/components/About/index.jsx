@@ -42,11 +42,10 @@ function About() {
 
   return (
     <>
-        {/* <section className={cn("about)-section",{'is-reveal': reveal})}  */}
 
       <section className={cn("about-section", {'is-reveal': reveal})}
         
-      >
+      > 
         <SectionText title='Why decolonize?'/>
           <p  ref={ref} id="text-about"
           className={cn({'is-reveal': reveal})}

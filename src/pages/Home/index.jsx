@@ -8,7 +8,7 @@ import './index.css'
 
 
 
-const Home = () => {
+const Home = () => { 
   
  
 

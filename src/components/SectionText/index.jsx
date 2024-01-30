@@ -6,6 +6,7 @@ function SectionText({title}) {
     <>
       <section data-scroll-section>
         <h6 className='section-text'>{title}</h6>
+        
       </section>
       
     </>

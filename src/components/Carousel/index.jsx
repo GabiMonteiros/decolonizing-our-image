@@ -30,7 +30,7 @@ function Carouselus() {
    
     return (
         <>
-
+ 
             <Carousel 
   
                 swipeable={false}
