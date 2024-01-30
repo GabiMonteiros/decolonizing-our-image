@@ -34,7 +34,7 @@ html,body{
     position: absolute;
     width: 470px;
     height: 50px;
-    left: 37%;
+    left: 35%;
 }
 .menu-bars{
     /* margin-left: 2rem; */
@@ -139,7 +139,7 @@ html,body{
 @media screen and (max-width: 1422px){
    
     .nav-item{
-        left: 34%;
+        left: 30%;
     }
 /* 
     .navbar{

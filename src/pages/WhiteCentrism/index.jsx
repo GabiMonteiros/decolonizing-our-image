@@ -3,9 +3,9 @@ import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
 import Gallery from '../../components/Gallery'
 import SectionText from '../../components/SectionText';
-import Carousel from '../../components/Carousel';
+// import Carousel from '../../components/Carousel';
 import cn from 'classnames';
-
+import CarouselSlick from '../../components/CarouselSlick';
 import SplitText from '../../utils/Split3.min.js';
 import useOnScreen from '../../hooks/useOnScreen';
 import gsap from 'gsap';
@@ -134,7 +134,8 @@ const WhiteCentrism = () =>{
         </section>
         
       
-        <Carousel></Carousel>
+        {/* <Carousel></Carousel> */}
+        <CarouselSlick></CarouselSlick>
 
     </>
       
