@@ -51,33 +51,36 @@ function CarouselNovo() {
          
          
           <img src="images/01JeanBaptisteDebret1823.png" alt="" />
-          {/* <div className="box-body">
-            <h2> A Brazilian Lady in her interior</h2>
-            <h3> Jean Baptiste Debret, 1823 </h3>
-            <h4>category: 'Whitecentrism</h4>
+          <div className="box-body">
+            
+            <h2>Whitecentrism</h2>
 
-          </div> */}
+          </div>
         </div> 
 
         <div className="box">
          
          
           <img src="images/posterHumanZoo.png" alt="" />
+          <h2>Dehumanization as Entertainment</h2>
         </div> 
         <div className="box">
           
           <img src="images/policia-criancasnegras2.png" alt="" />
+          <h2>Violence Against Black Bodies</h2>
         </div> 
 
         <div className="box">
           
           <img src="images/SenhoraEscravos1860.png" alt="" />
+          <h2>Always Serving</h2>
         </div> 
 
 
         <div className="box">
           
           <img src="images/policia-criancasnegras2.png" alt="" />
+          <h2>Google Image Search</h2>
 
         </div> 
       </Slider>  
