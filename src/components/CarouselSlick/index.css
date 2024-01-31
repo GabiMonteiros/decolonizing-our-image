@@ -28,10 +28,29 @@
 
 }
 
+.slick-dots li button:before{
+    color: #5423ce !important;
+    font-size: 0.75rem !important;
+    top: 2rem !important;
+}
 
-@media screen and (max-width: 428px){
-    #box{
-        margin: 0 -1rem !important;
+
+/* 
+@media screen and (max-width: 810px){
+    .slick-initialized .slick-slide{
+        margin: 0 0.5rem !important;
     }
 
 }
+*/
+@media screen and (max-width: 428px){
+    .slick-initialized .slick-slide{
+        margin: 0 0 -2rem 0rem !important;
+        /* height: 220px !important; */
+    }
+
+    .slick-slide div {
+        margin: 0 0rem  !important; 
+    }
+
+} 

@@ -8,9 +8,9 @@ function CarouselNovo() {
  
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 4,
     initialSlide: 0,
     responsive: [
@@ -24,7 +24,7 @@ function CarouselNovo() {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 810,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -32,7 +32,7 @@ function CarouselNovo() {
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 550,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
@@ -47,19 +47,23 @@ function CarouselNovo() {
 
       <Slider {...settings}>
           
-        <div className="box" id='boxOne'>
+        <div className="box" id='box'>
           <h3>1</h3>
+          <img src="images/01JeanBaptisteDebret1823.png" alt="" />
         </div> 
 
         <div className="box">
           <h3>2</h3>
+          <img src="images/posterHumanZoo.png" alt="" />
         </div> 
         <div className="box">
           <h3>3</h3>
+          <img src="images/policia-criancasnegras2.png" alt="" />
         </div> 
 
         <div className="box">
           <h3>4</h3>
+          <img src="images/SenhoraEscravos1860.png" alt="" />
         </div> 
 
 

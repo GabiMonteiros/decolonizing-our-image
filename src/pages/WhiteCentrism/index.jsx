@@ -1,9 +1,8 @@
 import React, {useEffect, useState, useRef}  from 'react';
 import {motion as m }from 'framer-motion';
-import hoverEffect from 'hover-effect';
+//import hoverEffect from 'hover-effect';
 import Gallery from '../../components/Gallery'
 import SectionText from '../../components/SectionText';
-// import Carousel from '../../components/Carousel';
 import cn from 'classnames';
 import CarouselSlick from '../../components/CarouselSlick';
 import SplitText from '../../utils/Split3.min.js';
@@ -34,18 +33,18 @@ const WhiteCentrism = () =>{
     
   ]);   
 
-  /*image transition*/ 
-  useEffect(() => {
-    // eslint-disable-next-line  
-    var image_animate = new hoverEffect({ 
-      parent: document.querySelector('.img_box'),
-      intensity: 0.7,
-      image1: '/images/01JeanBaptisteDebret1823.png' ,
-      image2:'/images/01vogue2.png',
-      displacementImage: '/images/heightMap.png'
+  // /*image transition*/ 
+  // useEffect(() => {
+  //   // eslint-disable-next-line  
+  //   var image_animate = new hoverEffect({ 
+  //     parent: document.querySelector('.img_box'),
+  //     intensity: 0.7,
+  //     image1: '/images/01JeanBaptisteDebret1823.png' ,
+  //     image2:'/images/01vogue2.png',
+  //     displacementImage: '/images/heightMap.png'
               
-      })
-    })
+  //     })
+  //   })
 
   const ref = useRef(null);
 
@@ -133,8 +132,7 @@ const WhiteCentrism = () =>{
             </p>
         </section>
         
-      
-        {/* <Carousel></Carousel> */}
+ 
         <CarouselSlick></CarouselSlick>
 
     </>
