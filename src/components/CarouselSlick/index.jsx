@@ -47,28 +47,38 @@ function CarouselNovo() {
 
       <Slider {...settings}>
           
-        <div className="box" id='box'>
-          <h3>1</h3>
+        <div className="box">
+         
+         
           <img src="images/01JeanBaptisteDebret1823.png" alt="" />
+          {/* <div className="box-body">
+            <h2> A Brazilian Lady in her interior</h2>
+            <h3> Jean Baptiste Debret, 1823 </h3>
+            <h4>category: 'Whitecentrism</h4>
+
+          </div> */}
         </div> 
 
         <div className="box">
-          <h3>2</h3>
+         
+         
           <img src="images/posterHumanZoo.png" alt="" />
         </div> 
         <div className="box">
-          <h3>3</h3>
+          
           <img src="images/policia-criancasnegras2.png" alt="" />
         </div> 
 
         <div className="box">
-          <h3>4</h3>
+          
           <img src="images/SenhoraEscravos1860.png" alt="" />
         </div> 
 
 
         <div className="box">
-          <h3>5</h3>
+          
+          <img src="images/policia-criancasnegras2.png" alt="" />
+
         </div> 
       </Slider>  
 
