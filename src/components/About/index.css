@@ -1,6 +1,6 @@
 
 .about-section{
-    padding: 2px 0 50px 5px;
+    padding: 3rem 5rem 0 5rem;
     background-color: yellow;
     height: auto;
  
@@ -10,6 +10,7 @@
     font-size: 20px; /*70px*/
     line-height: 1.4;
     /* opacity: 0; */ 
+
    
  
 

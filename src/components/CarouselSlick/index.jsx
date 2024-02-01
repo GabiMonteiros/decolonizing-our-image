@@ -43,7 +43,7 @@ function CarouselNovo() {
    
   return (
     <div className='carousel'>
-      <h2>Crousel Tut</h2>   
+      <h2>To decolonizing</h2>   
 
       <Slider {...settings}>
           
@@ -52,20 +52,15 @@ function CarouselNovo() {
          
           <img src="images/01JeanBaptisteDebret1823.png" alt="" />
           <div className="box-body">
-            
             <h2>Whitecentrism</h2>
-
           </div>
         </div> 
 
         <div className="box">
-         
-         
           <img src="images/posterHumanZoo.png" alt="" />
           <h2>Dehumanization as Entertainment</h2>
         </div> 
         <div className="box">
-          
           <img src="images/policia-criancasnegras2.png" alt="" />
           <h2>Violence Against Black Bodies</h2>
         </div> 
@@ -73,7 +68,7 @@ function CarouselNovo() {
         <div className="box">
           
           <img src="images/SenhoraEscravos1860.png" alt="" />
-          <h2>Always Serving</h2>
+          <h2>ALWAYS SERVING </h2>
         </div> 
 
 
