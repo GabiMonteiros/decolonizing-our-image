@@ -3,6 +3,7 @@ import './index.css'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
+import {Link} from 'react-router-dom'
 
 function CarouselNovo() {
  
@@ -43,39 +44,52 @@ function CarouselNovo() {
    
   return (
     <div className='carousel'>
-      <h2>To decolonizing</h2>   
+      <h2>decolonizing</h2>   
 
       <Slider {...settings}>
           
-        <div className="box">
+        
          
          
-          <img src="images/01JeanBaptisteDebret1823.png" alt="" />
-          <div className="box-body">
-            <h2>Whitecentrism</h2>
+          
+          <div className="box">
+            <Link to='/white-centrism'>
+              <img src="images/01JeanBaptisteDebret1823.png"  alt="" />
+              <h2>Whitecentrism</h2>
+            </Link>
+            
           </div>
-        </div> 
+      
 
         <div className="box">
-          <img src="images/posterHumanZoo.png" alt="" />
-          <h2>Dehumanization as Entertainment</h2>
+          <Link to='/dehumanization'>
+            <img src="images/posterHumanZoo.png" alt="" />
+            <h2>Dehumanization as Entertainment</h2>
+          </Link>
         </div> 
         <div className="box">
-          <img src="images/policia-criancasnegras2.png" alt="" />
-          <h2>Violence Against Black Bodies</h2>
-        </div> 
-
-        <div className="box">
+          <Link to='/violence-black-bodies'> 
+            <img src="images/policia-criancasnegras2.png" alt="" />
+            <h2>Violence Against Black Bodies</h2>
+          </Link>
           
-          <img src="images/SenhoraEscravos1860.png" alt="" />
-          <h2>ALWAYS SERVING </h2>
+        </div> 
+
+        <div className="box">
+          <Link to='/always-serving'>
+            <img src="images/SenhoraEscravos1860.png" alt="" />
+            <h2>ALWAYS SERVING </h2>
+          </Link>
+          
         </div> 
 
 
         <div className="box">
+          <Link to='/google-image-search'>
+            <img src="images/policia-criancasnegras2.png" alt="" />
+            <h2>Google Image Search</h2>
+          </Link>
           
-          <img src="images/policia-criancasnegras2.png" alt="" />
-          <h2>Google Image Search</h2>
 
         </div> 
       </Slider>  
