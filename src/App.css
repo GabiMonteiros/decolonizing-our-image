@@ -3,8 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
 
 
+
 body{
     background-color: rgb(244, 237, 227);
+    
 }
 
 
@@ -98,6 +100,9 @@ body{
     
 }
 
+.pages-container{
+    margin-top: -200px;
+}
 
 
 /* novo site */
@@ -172,7 +177,7 @@ body{
    
     .title h2{
        
-        margin-top: 38px ; /*105px*/
+        margin-top: 105px; /*105px*/
         margin-bottom: 500px;
         padding-top: 68px;
        
@@ -180,26 +185,30 @@ body{
     }
 
     .wc,
-    .gis,
     .wai,
     .as{
-        margin-top: -310px;
+        margin-top: -110px;
     }
 
     .vwnwb,
-    .deh{
+    .deh
+    .gis{
         margin-top: -420px;
 
     }
     
-   
+    .pages-container{
+        margin-top: -300px;
+     }
     
     
 } 
 
 @media screen and (max-width: 428px){
 
-    
+    .pages-container{
+       margin-top: -180px;
+    }
     img{
         /* width: 250px;
         height: 480px; */
@@ -211,7 +220,8 @@ body{
        
     }
     .title h2{ 
-        margin-top: 80px ; 
+        /* margin-top: 80px ;  */
+       
         margin-bottom: 370px;
     }
 

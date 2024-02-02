@@ -3,13 +3,16 @@
 html,body{
     min-width: 100%;
     min-height: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden; 
     padding: 0;
     margin: 0;
 }
 
 
 .navbar{
+    width: 100% !important; /* new line */
+    float: right !important; /* new line */
+    clear: both !important;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
@@ -23,7 +26,7 @@ html,body{
     font-weight: 700;
     text-transform: uppercase; 
     z-index: 999;
-    position: sticky; 
+    position: sticky !important; 
     top: 0px;
     margin: 0 10px 0 10px;
     text-decoration: none;
@@ -168,10 +171,16 @@ html,body{
 
 @media screen and (max-width: 428px){
   
+    .navbar{
+        padding-right: 395px;
+        position: sticky !important; 
 
+
+    }
     .nav-item{
-        left: 11%;
+        left: 19%;
         font-size: 16px;
+        
         
     }
 
@@ -179,6 +188,7 @@ html,body{
     .menu-bars{
         font-size: 33px;
         margin-top: -10px;
+        left: 60%;
     }
 
 
@@ -194,18 +204,26 @@ html,body{
     }
 
 
-    .nav-menu{
+    /* .nav-menu{
        
         height: 100vh;
         top: 0;
         margin-left: -91px;
-    }
+    } */
 }
 
 
 
 @media screen and (max-width: 375px){
 
+
+
+    .navbar{
+        padding-right: 100px;
+        position: sticky !important; 
+
+
+    }
     .nav-item{
         font-size: 14px;
     }
