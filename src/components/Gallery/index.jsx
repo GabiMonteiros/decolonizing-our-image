@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import React, { useEfect } from 'react';
 import './index.css';
-
+ 
 
 const Gallery =(props ) =>{
   const imgs = props.imgs
