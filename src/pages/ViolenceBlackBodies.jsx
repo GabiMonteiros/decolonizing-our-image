@@ -3,6 +3,8 @@ import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
 import SectionText from '../components/SectionText';
 import Gallery from '../components/Gallery';
+import CarouselSlick from './../components/CarouselSlick';
+
 
 function ViolenceNonWhiteBodies() {
   // eslint-disable-next-line  
@@ -73,6 +75,9 @@ function ViolenceNonWhiteBodies() {
             </p>
         </section>
       </div>
+
+      <CarouselSlick></CarouselSlick>
+
     </>
 
   )

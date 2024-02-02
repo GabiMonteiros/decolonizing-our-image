@@ -3,6 +3,8 @@ import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
 import SectionText from '../../components/SectionText';
 import Gallery from '../../components/Gallery';
+import CarouselSlick from '../../components/CarouselSlick';
+
 
 function Sexism() {
   // eslint-disable-next-line 
@@ -79,6 +81,7 @@ function Sexism() {
         </section>
       </div>
 
+      <CarouselSlick></CarouselSlick>
     </>
     
   )

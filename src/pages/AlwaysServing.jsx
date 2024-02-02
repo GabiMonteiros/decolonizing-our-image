@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {motion as m }from 'framer-motion';
 import hoverEffect from 'hover-effect';
 import Gallery from '../components/Gallery'
+import CarouselSlick from './../components/CarouselSlick';
 
 import SectionText from '../components/SectionText';
 
@@ -78,6 +79,8 @@ function NonWhiteServing() {
                 </p>
             </section>
         </div>    
+        <CarouselSlick></CarouselSlick>
+
     </>
   )
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import {motion as m }from 'framer-motion';
 import SectionText from '../components/SectionText';
+import CarouselSlick from './../components/CarouselSlick';
+
 
 
 function WhoAmI(){
@@ -46,6 +48,9 @@ function WhoAmI(){
 
 
       </div>  
+
+      <CarouselSlick></CarouselSlick>
+
     </>
   )
 

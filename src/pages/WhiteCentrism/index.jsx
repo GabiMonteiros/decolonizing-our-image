@@ -84,33 +84,33 @@ const WhiteCentrism = () =>{
       
       
       <div className="pages-container" >
-          <m.div 
-            initial={{y: "100%" }}
-            animate={{ y: "0%" }} 
-            transition={{duration:0.75, ease: 'easeOut'}} 
-            exit={{opacity: 1 }}
-          >
-            <section className='title wc' >
-              <m.h2
-                initial={{y: 0 }}
-                animate={{ y: "100%" }}
-                transition={{ delay:0.7, duration: 0.80}}
-              >
-                White Centrism
-              </m.h2>
+        <m.div 
+          initial={{y: "100%" }}
+          animate={{ y: "0%" }} 
+          transition={{duration:0.75, ease: 'easeOut'}} 
+           exit={{opacity: 1 }}
+        >
+          <section className='title wc' >
+            <m.h2
+              initial={{y: 0 }}
+              animate={{ y: "100%" }}
+              transition={{ delay:0.7, duration: 0.80}}
+            >
+              White Centrism
+            </m.h2>
 
-            </section>
+          </section>
             
-            <div className="img_container">
-              <div className="img_box"></div>
-            </div>
+          <div className="img_container">
+             <div className="img_box"></div>
+          </div>
           
   
-          </m.div>
-      </div> 
-      <Gallery imgs={imgs}/>
-        
+        </m.div>
+      
+        <Gallery imgs={imgs}/>
           
+            
 
         <section className={cn("about-section", {'is-reveal': reveal})}
           
@@ -129,11 +129,11 @@ const WhiteCentrism = () =>{
             justificativas ideológicas que lhes retire a responsabilidade de responder pelo continuo de violência que 
             a exploração econômica do não branco  que significa na manutenção e construção do status quo da branquitude.
             Assim essas pessoas se confortam e tem uma justificativa para o processo contínuo de desumanização dos não brancos, q não os afetam 
-            </p>
+          </p>
         </section>
-        
+      </div>
  
-        <CarouselSlick></CarouselSlick>
+      <CarouselSlick></CarouselSlick>
 
     </>
       

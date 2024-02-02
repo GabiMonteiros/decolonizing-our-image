@@ -1,5 +1,7 @@
 import React from 'react'
 import {motion as m }from 'framer-motion';
+import CarouselSlick from '../../components/CarouselSlick';
+
 
 function GoogleImageSearch() {
   return (
@@ -27,6 +29,8 @@ function GoogleImageSearch() {
           
         </m.div>
       </div>
+      <CarouselSlick></CarouselSlick>
+
   
     </>
    
